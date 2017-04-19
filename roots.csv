@@ -1,0 +1,62 @@
+SHA1,Label,Valid URL
+d1eb23a46d17d68fd92564c2f1f1601764d8e349,"Comodo AAA Services root",https://aaacertificateservices.comodoca.com/
+ccab0ea04c2301d6697bdd379fcd12eb24e3949d,"AddTrust Low-Value Services Root",
+02faf3e291435468607857694df5e45b68851868,"AddTrust External Root",https://addtrustexternalcaroot-ev.comodoca.com/
+2ab628485e78fbf3ad9e7910dd6bdf99722c96e5,"AddTrust Public Services Root",
+4d2378ec919539b5007f758f033b211ec54d8bcf,"AddTrust Qualified Certificates Root",
+6631bf9ef74f9eb6c9d5a60cba6abed1f7bdef7b,"COMODO Certification Authority",
+9f744e9f2b4dbaec0f312c50b6563b8e2d93c311,"COMODO ECC Certification Authority",https://comodoecccertificationauthority-ev.comodoca.com/
+afe5d244a8d1194230ff479fe2f897bbcd7a8cb4,"COMODO RSA Certification Authority",Trusted By MS
+4a65d5f41def39b8b8904a4ad3648133cfc7a1d1,"Comodo Secure Services root",
+e19fe30e8b84609e809b170d72a8c5ba6e1409bd,"Comodo Trusted Services root",
+d1cbca5db2d52a7f693b674de5f05a1d0c957df0,"USERTrust ECC Certification Authority",https://usertrustecccertificationauthority-ev.comodoca.com
+2b8f1b57330dbba2d07a6c51f70ee90ddab9ad8e,"USERTrust RSA Certification Authority",Trusted By MS
+0483ed3399ac3608058722edbc5e4600e3bef9d7,"UTN USERFirst Hardware Root CA",https://utnuserfirsthardware-ev.comodoca.com/
+d4de20d05e66fc53fe1a50882c78db2852cae474,"Baltimore CyberTrust Root",https://baltimore.omniroot.com
+5f43e5b1bff8788cac1cc7ca4a9ac6222bcc34c6,"Cybertrust Global Root",https://ev.omniroot.com
+0563b8630d62d75abbc8ab1e4bdfb5a899b24d43,"DigiCert Assured ID Root CA",https://assured-id-root.digicert.com/testroot/
+a14b48d943ee0a0e40904f3ce0a4c09193515d3f,"DigiCert Assured ID Root G2",https://assured-id-root-g2.digicert.com/
+f517a24f9a48c6c9f8a200269fdc0f482cab3089,"DigiCert Assured ID Root G3",https://assured-id-root-g3.digicert.com/
+a8985d3a65e5e5c4b2d7d66d40c6dd2fb19c5436,"DigiCert Global Root CA",https://global-root.digicert.com/testroot/
+df3c24f9bfd666761b268073fe06d1cc8d4f82a4,"DigiCert Global Root G2",https://global-root-g2.digicert.com/
+7e04de896a3e666d00e687d33ffad93be83d349e,"DigiCert Global Root G3",https://global-root-g3.digicert.com/
+5fb7ee0633e259dbad0c4c9ae6d38f1a61c7dc25,"DigiCert High Assurance EV Root CA",https://ev-root.digicert.com/testroot/
+ddfb16cd4931c973a2037d3fc83a4d7d775d05e4,"DigiCert Trusted Root G4",https://trusted-root-g4.digicert.com/
+b31eb1b740e36c8402dadc37d44df5d4674952f9,"Entrust Root Certification Authority",https://validev.entrust.net
+20d80640df9b25f512253a11eaf7598aeb14b547,"Entrust Root Certification Authority - EC1",Trusted By MS
+8cf427fd790c3ad166068de81e57efbb932272d4,"Entrust Root Certification Authority - G2",Trusted By MS
+503006091d97d4f5ae39f7cbe7927d7d652d3431,"Entrust.net Premium 2048 Secure Server CA",https://2048test.entrust.net
+b1bc968bd4f49d622aa89a81f2150152a41d829c,"GlobalSign Root CA",https://2028.globalsign.com/
+75e0abb6138512271c04f85fddde38e4b7242efe,"GlobalSign Root CA - R2",https://2021.globalsign.com/
+d69b561148f01c77c54578c10926df5b856976ad,"GlobalSign Root CA - R3",https://2029.globalsign.com/
+6969562e4080f424a1e7199f14baf3ee58ab6abb,"GlobalSign ECC Root CA - R4",https://2038r4.globalsign.com
+1f24c630cda418ef2069ffad4fdd5f463a1b69aa,"GlobalSign ECC Root CA - R5",https://2038r5globalsign.com
+8094640eb5a7a1ca119c1fddd59f810263a7fbd1,"GlobalSign Root CA - R6",Trusted By MS
+6201ffce4f09cdc7e02fe110f4fd67f0371a2f2a,"GlobalSign Root CA - R8",
+47beabc922eae80e78783462a79f45c254fde68b,"Go Daddy Root Certificate Authority - G2",https://valid.gdig2.catest.godaddy.com/
+b51c067cee2b0c3df855ab2d92f4fe39d4e70f0e,"Starfield Root Certificate Authority - G2",https://valid.sfig2.catest.starfieldtech.com/
+ad7e1c28b064ef8f6003402014c3d0e3370eb58a,"Starfield Class 2 CA",https://valid.sfi.catest.starfieldtech.com/
+2796bae63f1801e277261ba0d77770028f20eee4,"Go Daddy Class 2 CA",https://valid.gdi.catest.godaddy.com/
+d23209ad23d314232174e40d7f9d62139786633a,"Equifax Secure CA",https://ssltest15.bbtest.net/
+de28f4a4ffe5b92fa3c503d1a349a7f9962a8212,"GeoTrust Global CA",https://ssltest14.bbtest.net/
+a9e9780814375888f20519b06d2b0d2b6016907d,"GeoTrust Global CA 2",https://ssltest19.bbtest.net/
+323c118e1bf7b8b65254e2e2100dd6029037f096,"GeoTrust Primary Certification Authority",https://ssltest22.bbtest.net/
+8d1784d537f3037dec70fe578b519a99e610d7b0,"GeoTrust Primary Certification Authority - G2",https://ssltest42.ssl.symclab.com
+039eedb80be7a03c6953893b20d2d9323a4c2afd,"GeoTrust Primary Certification Authority - G3",https://ssltest21.bbtest.net
+e621f3354379059a4b68309d8a2f74221587ec79,"GeoTrust Universal CA",https://ssltest20.bbtest.net
+379a197b418545350ca60369f33c2eaf474f2079,"GeoTrust Universal CA 2",https://ssltest34.bbtest.net
+91c6d6ee3e8ac86384e548c299295c756c817b81,"thawte Primary Root CA",https://ssltest6.bbtest.net/
+aadbbc22238fc401a127bb38ddf41ddb089ef012,"thawte Primary Root CA - G2",https://ssltest40.ssl.symclab.com
+f18b538d1be903b6a6f056435b171589caf36bf2,"thawte Primary Root CA - G3",https://ssltest8.bbtest.net
+132d0d45534b6997cdb2d5c339e25576609b5cc6,"Verisign Class 3 Public Primary Certification Authority - G3",https://ssltest3.bbtest.net/
+22d5d8df8f0231d18df79db7cf8a2d64c93f6c3a,"VeriSign Class 3 Public Primary Certification Authority - G4",https://ssltest48.ssl.symclab.com
+4eb6d578499b1ccf5f581ead56be3d9b6744a5e5,"VeriSign Class 3 Public Primary Certification Authority - G5",https://ssltest1.bbtest.net/
+3679ca35668772304d30a5fb873b0fa77bb70d54,"VeriSign Universal Root Certification Authority",https://ssltest26.bbtest.net/
+f9b5b632455f9cbeec575f80dce96e2cc7b278b7,"AffirmTrust Commercial",https://commercial.affirmtrust.com/
+293621028b20ed02f566c532d1d6ed909f45002f,"AffirmTrust Networking",https://networking.affirmtrust.com:4431
+d8a6332ce0036fb185f6634f7d6a066526322827,"AffirmTrust Premium",https://premium.affirmtrust.com:4432/
+b8236b002f1d16865301556c11a437caebffc3bb,"AffirmTrust Premium ECC",https://premiumecc.affirmtrust.com:4433/
+E1C950E6EF22F84C5645728B922060D7D5A7A3E8,"GTS Root R1",
+D273962A2A5E399F733FE1C71E643F033834FC4D,"GTS Root R2",
+30D4246F07FFDB91898A0BE9496611EB8C5E46E5,"GTS Root R3",
+2A1D6027D94AB10A1C4D915CCD33A0CB3E2D54CB,"GTS Root R4",
