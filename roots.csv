@@ -6,7 +6,7 @@ ccab0ea04c2301d6697bdd379fcd12eb24e3949d,"AddTrust Low-Value Services Root",
 4d2378ec919539b5007f758f033b211ec54d8bcf,"AddTrust Qualified Certificates Root",
 6631bf9ef74f9eb6c9d5a60cba6abed1f7bdef7b,"COMODO Certification Authority",
 9f744e9f2b4dbaec0f312c50b6563b8e2d93c311,"COMODO ECC Certification Authority",https://comodoecccertificationauthority-ev.comodoca.com/
-afe5d244a8d1194230ff479fe2f897bbcd7a8cb4,"COMODO RSA Certification Authority",Trusted By MS
+afe5d244a8d1194230ff479fe2f897bbcd7a8cb4,"COMODO RSA Certification Authority",https://comodorsacertificationauthority-ev.comodoca.com
 4a65d5f41def39b8b8904a4ad3648133cfc7a1d1,"Comodo Secure Services root",
 e19fe30e8b84609e809b170d72a8c5ba6e1409bd,"Comodo Trusted Services root",
 d1cbca5db2d52a7f693b674de5f05a1d0c957df0,"USERTrust ECC Certification Authority",https://usertrustecccertificationauthority-ev.comodoca.com
