@@ -23,8 +23,8 @@ df3c24f9bfd666761b268073fe06d1cc8d4f82a4,"DigiCert Global Root G2",https://globa
 5fb7ee0633e259dbad0c4c9ae6d38f1a61c7dc25,"DigiCert High Assurance EV Root CA",https://ev-root.digicert.com/testroot/
 ddfb16cd4931c973a2037d3fc83a4d7d775d05e4,"DigiCert Trusted Root G4",https://trusted-root-g4.digicert.com/
 b31eb1b740e36c8402dadc37d44df5d4674952f9,"Entrust Root Certification Authority",https://validev.entrust.net
-20d80640df9b25f512253a11eaf7598aeb14b547,"Entrust Root Certification Authority - EC1",Trusted By MS
-8cf427fd790c3ad166068de81e57efbb932272d4,"Entrust Root Certification Authority - G2",Trusted By MS
+20d80640df9b25f512253a11eaf7598aeb14b547,"Entrust Root Certification Authority - EC1",https://validec.entrust.net
+8cf427fd790c3ad166068de81e57efbb932272d4,"Entrust Root Certification Authority - G2",https://validg2.entrust.net/
 503006091d97d4f5ae39f7cbe7927d7d652d3431,"Entrust.net Premium 2048 Secure Server CA",https://2048test.entrust.net
 b1bc968bd4f49d622aa89a81f2150152a41d829c,"GlobalSign Root CA",https://2028.globalsign.com/
 75e0abb6138512271c04f85fddde38e4b7242efe,"GlobalSign Root CA - R2",https://2021.globalsign.com/
