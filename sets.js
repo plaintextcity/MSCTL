@@ -136,7 +136,19 @@ var sets = [
 {subdomain: "VeriSign Class 3 Public Primary Certification Authority - G5:ssltest1.bbtest.net"},
 {subdomain: "VeriSign Universal Root Certification Authority:ssltest26.bbtest.net"}
     ]
-  }//,
+  },
+  {
+    heading: "Trustwave",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain: "Trustwave:sgcatest.trustwave.com"},
+{subdomain: "Trustwave:stcatest.trustwave.com"},
+{subdomain: "Trustwave:xgcatest.trustwave.com"}
+    ]
+  }
+
+  //,
 //  {
 //    heading: "AffirmTrust (Entrust DataCard)",
 //    success: "yes",
