@@ -39,15 +39,43 @@ var sets = [
       {subdomain: "Buypass Class 3 CA 1:valid.evident.ca13.ssl.buypass.no"}
     ]
   },
-  
- 
 // Camerfirma
+    {
+    heading: "Camerfirma",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+      {subdomain: "Chambers of Commerce Root - 2008:www.camerfirma.com"},
+// "Global Chambersign Root - 2008"	Not yet issuing SSL certs.
+      {subdomain: "Chambersign Chambers of Commerce Root:server1.camerfirma.com"}
+// "Chambersign Global Root"	Not yet issuing SSL certs.
+    ]
+  },
+ 
 // Certinomis
+    {
+    heading: "Certinomis",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+//      {subdomain: "Certinomis - Root CA:#N/A"},
+      {subdomain: "Certinomis:w3-test.certinomis.com"}
+    ]
+  },
 // certSIGN
+  {
+    heading: "certSIGN",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+      {subdomain: "certSIGN Root CA:www.certsign.ro"}
+    ]
+  },
 // Certum
 // China Financial Certification Authority
 // Chunghwa Telecom Co., Ltd.
 // China Internet Network Information Center
+  
 // Cisco
 // Comodo CA Ltd
   {
