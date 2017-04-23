@@ -13,13 +13,34 @@ var sets = [
       {subdomain: "Amazon Root CA 2:good.sca2a.amazontrust.com"},
       {subdomain: "Amazon Root CA 3:good.sca3a.amazontrust.com"},
       {subdomain: "Amazon Root CA 4:good.sca4a.amazontrust.com"},
-      {subdomain: "Starfield Services Root Certificate Authority:good.sca0a.amazontrust.com"}
-      
+      {subdomain: "Starfield Services Root Certificate Authority:good.sca0a.amazontrust.com"}  
     ]
   },
 // ANF Autoridad de Certificación
 // AS Sertifitseerimiskeskus
+    {
+    heading: "AS Sertifitseerimiskeskus",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+      {subdomain: "Actalis AuthenticationRoot CA://ssltest-a.actalis.it:8443"}
+    ]
+  },
+
 // Buypass AS
+    {
+    heading: "Buypass",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+      {subdomain: "Buypass Class 2 CA 1:valid.domainplus.ca12.ssl.buypass.no"},
+      {subdomain: "Buypass Class 2 Root CA:valid.domainplus.ca22.ssl.buypass.no"},
+      {subdomain: "Buypass Class 3 Root CA:valid.evident.ca23.ssl.buypass.no"},
+      {subdomain: "Buypass Class 3 CA 1:valid.evident.ca13.ssl.buypass.no"}
+    ]
+  },
+  
+ 
 // Camerfirma
 // Certinomis
 // certSIGN
