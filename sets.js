@@ -1,5 +1,9 @@
 
 var sets = [
+  
+// CabForum Certification Authorities *
+// Actalis S.p.A.
+// Amazon
   {
     heading: "Amazon Trust Services",
     success: "yes",
@@ -13,20 +17,18 @@ var sets = [
       
     ]
   },
-  {
-    heading: "Google Trust Services",
-    success: "yes",
-    fail: "no",
-      subdomains: [
-      {subdomain: "GTS Root R1:good.r1demo.pki.goog"},
-      {subdomain: "GTS Root R2:good.r2demo.pki.goog"},
-      {subdomain: "GTS Root R3:good.r3demo.pki.goog"},
-      {subdomain: "GTS Root R4:good.r4demo.pki.goog"},
-      {subdomain: "GS Root R2:2021.globalsign.com"},
-      {subdomain: "GS Root R4:2038r4.globalsign.com"},
-      {subdomain: "Google Internet Authority G2:cert-test.sandbox.google.com"}        
-    ]
-  },
+// ANF Autoridad de Certificación
+// AS Sertifitseerimiskeskus
+// Buypass AS
+// Camerfirma
+// Certinomis
+// certSIGN
+// Certum
+// China Financial Certification Authority
+// Chunghwa Telecom Co., Ltd.
+// China Internet Network Information Center
+// Cisco
+// Comodo CA Ltd
   {
     heading: "Comodo",
     success: "yes",
@@ -46,9 +48,11 @@ var sets = [
 //{subdomain: "USERTrust RSA Certification Authority:USERTrust RSA Certification Authority"},
 //{subdomain: "UTN USERFirst Hardware Root CA:utnuserfirsthardware-ev.comodoca.com"}
     ]
-  },
-
-  {
+  }, 
+// ComSign Ltd
+// D-TRUST GmbH
+// DigiCert, Inc.
+    {
     heading: "DigiCert",
     success: "yes",
     fail: "no",
@@ -65,6 +69,11 @@ var sets = [
 {subdomain: "DigiCert Trusted Root G4:trusted-root-g4.digicert.com"}
     ]
   },
+// Digidentity
+// Disig, a.s.
+// DocuSign (formerly OpenTrust/KEYNECTIS)
+// E-TUGRA Inc.
+// Entrust
   {
     heading: "Entrust Datacard (including Affirmtrust brand)",
     success: "yes",
@@ -80,6 +89,11 @@ var sets = [
 {subdomain: "AffirmTrust Premium ECC:premiumecc.affirmtrust.com:4433"}
     ]
   },
+  
+// ESG de Electronische Signatuur B.V.
+// Firmaprofesional
+// Global Digital Cybersecurity Authority Co., Ltd
+// GlobalSign
   {
     heading: "GlobalSign",
     success: "yes",
@@ -94,7 +108,8 @@ var sets = [
 //{subdomain: "GlobalSign Root CA - R8:CABFBaselineRequirementSection2.2ValidURL"},
 
     ]
-  },
+  }, 
+// GoDaddy Inc
   {
     heading: "Go Daddy",
     success: "yes",
@@ -107,6 +122,26 @@ var sets = [
     ]
   },
 
+// Google
+  {
+    heading: "Google Trust Services",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+      {subdomain: "GTS Root R1:good.r1demo.pki.goog"},
+      {subdomain: "GTS Root R2:good.r2demo.pki.goog"},
+      {subdomain: "GTS Root R3:good.r3demo.pki.goog"},
+      {subdomain: "GTS Root R4:good.r4demo.pki.goog"},
+      {subdomain: "GS Root R2:2021.globalsign.com"},
+      {subdomain: "GS Root R4:2038r4.globalsign.com"},
+      {subdomain: "Google Internet Authority G2:cert-test.sandbox.google.com"}        
+    ]
+  },
+// Hellenic Academic and Research Institutions Certification Authority (HARICA)
+// Izenpe S.A.
+// Kamu Sertifikasyon Merkezi
+// KPN Corporate Market BV
+// Let’s Encrypt
   {
     heading: "Let's Encrypt",
     success: "yes",
@@ -115,6 +150,33 @@ var sets = [
 {subdomain: "ISRG Root X1:valid-isrgrootx1.letsencrypt.org/"}
     ]
   },
+// Logius PKIoverheid
+// National Center for Digital Certification
+// Network Solutions, LLC
+// Open Access Technology International
+// Prvni certifikacni autorita, a.s.
+// QuoVadis Ltd.
+  {
+    heading: "QuoVadis",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain:"QuoVadis Root Certification Authority:qvsslrca-v.quovadisglobal.com"},
+{subdomain:"QuoVadis Root CA 2:evsslrca2-v.quovadisglobal.com"},
+{subdomain:"QuoVadis Root CA 3:qvsslrca3-v.quovadisglobal.com"},
+{subdomain:"QuoVadis Root CA 1 G3:qvsslrca1g3-ssl-v.quovadisglobal.com"},
+{subdomain:"QuoVadis Root CA 2 G3:qvsslrca2g3-ev-v.quovadisglobal.com"},
+{subdomain:"QuoVadis Root CA 3 G3:qvsslrca3g3-ssl-v.quovadisglobal.com"}
+    ]
+  },
+  
+// Secom Trust Systems
+// Shanghai Electronic Certification Authority Center Co. Ltd
+// Skaitmeninio sertifikavimo centras (SSC)
+// StartCom Certification Authority
+// Swisscom (Switzerland) Ltd
+// SwissSign AG
+// Symantec Corporation
   {
     heading: "Symantec",
     success: "yes",
@@ -137,6 +199,11 @@ var sets = [
 {subdomain: "VeriSign Universal Root Certification Authority:ssltest26.bbtest.net"}
     ]
   },
+  
+// TAIWAN-CA Inc.
+// TrustCor Systems, S. de R.L.
+// Trustis Limited
+// Trustwave
   {
     heading: "Trustwave",
     success: "yes",
@@ -147,19 +214,8 @@ var sets = [
 {subdomain: "XRamp Gobal Certification Authority:xgcatest.trustwave.com"}
     ]
   }
-
-  //,
-//  {
-//    heading: "AffirmTrust (Entrust DataCard)",
-//    success: "yes",
-//    fail: "no",
-//      subdomains: [
-//{subdomain: "AffirmTrust Commercial:commercial.affirmtrust.com"},
-//{subdomain: "AffirmTrust Networking:networking.affirmtrust.com:4431"},
-//{subdomain: "AffirmTrust Premium:premium.affirmtrust.com:4432"},
-//{subdomain: "AffirmTrust Premium ECC:premiumecc.affirmtrust.com:4433"}
-//    ]
-//  } 
+// TURKTRUST
+// WoSign
 
 /*,
   {
