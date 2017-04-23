@@ -224,7 +224,27 @@ var sets = [
 // Skaitmeninio sertifikavimo centras (SSC)
 // StartCom Certification Authority
 // Swisscom (Switzerland) Ltd
+  {
+    heading: "Swisscom",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain:"Swisscom Root CA 2:test-emerald-ca-2.pre.swissdigicert.ch"},
+{subdomain:"Swisscom Root EV CA2:test-quarz-ev-ca-2.pre.swissdigicert.ch"},
+{subdomain:"Swisscom Root CA 1:test-emerald-ca-1.pre.swissdigicert.ch"}
+    ]
+  },
 // SwissSign AG
+  {
+    heading: "SwissSign",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain:"SwissSign:testevg2.swisssign.net"},
+//{subdomain:"SwissSign Platinum G2 Root CA:Websites trust bit not set."},
+{subdomain:"SwissSign Silver G2 Root CA:testsilverg2.swisssign.net"}
+    ]
+  },
 // Symantec Corporation
   {
     heading: "Symantec",
@@ -248,8 +268,19 @@ var sets = [
 {subdomain: "VeriSign Universal Root Certification Authority:ssltest26.bbtest.net"}
     ]
   },
-  
 // TAIWAN-CA Inc.
+  {
+    heading: "TAIWAN-CA Inc.",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain: "TWCA Global Root CA:evssldemo3.twca.com.tw/index.html"},
+{subdomain: "TWCA Root Certification Authority 1:evssldemo.twca.com.tw/index.html"},
+// "TWCA Root Certification Authority 2"	#N/A
+    ]
+  },
+
+  
 // TrustCor Systems, S. de R.L.
 // Trustis Limited
 // Trustwave
