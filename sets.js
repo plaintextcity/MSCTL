@@ -142,9 +142,9 @@ var sets = [
     success: "yes",
     fail: "no",
       subdomains: [
-{subdomain: "Trustwave:sgcatest.trustwave.com"},
-{subdomain: "Trustwave:stcatest.trustwave.com"},
-{subdomain: "Trustwave:xgcatest.trustwave.com"}
+{subdomain: "Secure Gobal CA:sgcatest.trustwave.com"},
+{subdomain: "SecureTrust CA:stcatest.trustwave.com"},
+{subdomain: "XRamp Gobal Certification Authority:xgcatest.trustwave.com"}
     ]
   }
 
