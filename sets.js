@@ -3,6 +3,14 @@ var sets = [
   
 // CabForum Certification Authorities *
 // Actalis S.p.A.
+  {
+    heading: "Actalis S.p.A.",
+    success: "yes",
+    fail: "no",
+    subdomains: [
+      {subdomain: "Actalis AuthenticationRoot CA:ssltest-a.actalis.it:8443"}
+    ]
+  },
 // Amazon
   {
     heading: "Amazon Trust Services",
@@ -51,7 +59,6 @@ var sets = [
 // "Chambersign Global Root"	Not yet issuing SSL certs.
     ]
   },
- 
 // Certinomis
     {
     heading: "Certinomis",
@@ -74,7 +81,17 @@ var sets = [
 // Certum
 // China Financial Certification Authority
 // Chunghwa Telecom Co., Ltd.
+
 // China Internet Network Information Center
+//  {
+//    heading: "China Internet Network Information Center",
+//    success: "yes",
+//    fail: "no",
+//    subdomains: [
+//      //CNNIC Root	https://mail.cnnic.cn/"China Internet      
+//      {subdomain: "Network Information Center EV Certificates Root:evdemo.cnnic.cn"}
+//    ]
+//  }, 
   
 // Cisco
 // Comodo CA Ltd
@@ -280,8 +297,19 @@ var sets = [
     ]
   },
 
-  
 // TrustCor Systems, S. de R.L.
+  {
+    heading: "TrustCor Systems, S. de R.L.",
+    success: "yes",
+    fail: "no",
+      subdomains: [
+{subdomain: "RootCert CA-1:catest1.trustcor.ca"},
+{subdomain: "RootCert CA-3:catest2.trustcor.ca"},
+{subdomain: "ECA-1 External:valid.epki.external.trustcor.ca"}
+    ]
+  },
+  
+  
 // Trustis Limited
 // Trustwave
   {
