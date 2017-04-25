@@ -25,18 +25,20 @@ var verdict = {
 }
 
 function request(origin, success, failure) {
-//  var url = origin + "/test/dashboard/small-image.png";
-  var url = origin;
-
   // Not all browsers support `fetch` yet, and we might want to support older
-  // browsers anyhow.
-  fetch(url, {mode: "no-cors"}).then(success, failure);
-
+  // browsers anyhow. 
+  if (self.fetch) {
+    var url = origin;    
+    fetch(url, {mode: "no-cors"}).then(success, failure);
+  } else {
+  
   // Images don't require CORS.
   //var img = new Image();
+  //  var url = origin + "/test/dashboard/small-image.png";    
   //img.addEventListener("load", success, false);
   //img.addEventListener("error", failure, false);
   //img.src = url;
+  }
 }
 
 function test(origin, set, tr) {
