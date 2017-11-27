@@ -118,21 +118,32 @@ var sets = [
 // ComSign Ltd
 // D-TRUST GmbH
 // DigiCert, Inc.
+//   https://www.digicert.com/digicert-root-certificates.htm
     {
     heading: "DigiCert",
     success: "yes",
     fail: "no",
       subdomains: [
-{subdomain: "Baltimore CyberTrust Root:baltimore.omniroot.com"},
+//{subdomain: "Baltimore CyberTrust Root:baltimore.omniroot.com"},
 {subdomain: "Cybertrust Global Root:ev.omniroot.com"},
-{subdomain: "DigiCert Assured ID Root CA:assured-id-root.digicert.com/testroot"},
-{subdomain: "DigiCert Assured ID Root G2:assured-id-root-g2.digicert.com"},
-{subdomain: "DigiCert Assured ID Root G3:assured-id-root-g3.digicert.com"},
-{subdomain: "DigiCert Global Root CA:global-root.digicert.com/testroot"},
-{subdomain: "DigiCert Global Root G2:global-root-g2.digicert.com"},
-{subdomain: "DigiCert Global Root G3:global-root-g3.digicert.com"},
-{subdomain: "DigiCert High Assurance EV Root CA:ev-root.digicert.com/testroot"},
-{subdomain: "DigiCert Trusted Root G4:trusted-root-g4.digicert.com"}
+//{subdomain: "DigiCert Assured ID Root CA:assured-id-root.digicert.com/testroot"},
+//{subdomain: "DigiCert Assured ID Root G2:assured-id-root-g2.digicert.com"},
+//{subdomain: "DigiCert Assured ID Root G3:assured-id-root-g3.digicert.com"},
+//{subdomain: "DigiCert Global Root CA:global-root.digicert.com/testroot"},
+//{subdomain: "DigiCert Global Root G2:global-root-g2.digicert.com"},
+//{subdomain: "DigiCert Global Root G3:global-root-g3.digicert.com"},
+//{subdomain: "DigiCert High Assurance EV Root CA:ev-root.digicert.com/testroot"},
+//{subdomain: "DigiCert Trusted Root G4:trusted-root-g4.digicert.com"}
+{subdomain: "Baltimore CyberTrust Root:baltimore-cybertrust-root.chain-demos.digicert.com"},
+{subdomain: "DigiCert Assured ID Root CA:assured-id-root-ca.chain-demos.digicert.com"},
+{subdomain: "DigiCert Assured ID Root G2:assured-id-root-g2.chain-demos.digicert.com"},
+{subdomain: "DigiCert Assured ID Root G3:assured-id-root-g3.chain-demos.digicert.com"},
+{subdomain: "DigiCert Global Root CA:global-root-ca.chain-demos.digicert.com"},
+{subdomain: "DigiCert Global Root G2:global-root-g2.chain-demos.digicert.com"},
+{subdomain: "DigiCert Global Root G3:global-root-g3.chain-demos.digicert.com"},
+{subdomain: "DigiCert High Assurance EV Root CA:ev-root.chain-demos.digicert.com"},
+{subdomain: "DigiCert Trusted Root G4:trusted-root-g4.chain-demos.digicert.com"},
+{subdomain: "GTE CyberTrust Global Root:gte-cybertrust-global-root.digicert.com"}
     ]
   },
 // Digidentity
