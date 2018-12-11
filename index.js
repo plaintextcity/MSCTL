@@ -10,8 +10,10 @@ function createSpinner() {
 
 function calculateOrigin(config) {
   var arrOrigin = config.subdomain.split(":");
-//  var origin = "https://" + config.subdomain + "." + domain;
-  var origin = "https://" + arrOrigin[1];
+  var origin = ""
+  if (arrOrigin[1]) {
+    origin = "https://" + arrOrigin[1];
+  }
   if (arrOrigin[2]) {
     origin += ":" + arrOrigin[2];
   }
@@ -42,20 +44,25 @@ function request(origin, success, failure) {
 }
 
 function test(origin, set, tr) {
-  request(
-    origin,
-    function() {
-      tr.classList.add("expected-" + set.success);
-      tr.querySelector(".result").textContent = "connected";
-      tr.querySelector(".expected").textContent = verdict[set.success];
-    },
-    function() {
-      tr.classList.add("expected-" + set.fail);
-      tr.querySelector(".result").textContent = "cannot connect";
-      tr.querySelector(".expected").textContent = verdict[set.fail];
-    }
-  );
-
+  if (origin) {
+    request(
+      origin,
+      function() {
+        tr.classList.add("expected-" + set.success);
+        tr.querySelector(".result").textContent = "connected";
+        tr.querySelector(".expected").textContent = verdict[set.success];
+      },
+      function() {
+        tr.classList.add("expected-" + set.fail);
+        tr.querySelector(".result").textContent = "cannot connect";
+        tr.querySelector(".expected").textContent = verdict[set.fail];
+      }
+    );
+  } else {
+    tr.classList.add("expected-" + set.fail);
+    tr.querySelector(".result").textContent = "No Test Website";
+    tr.querySelector(".expected").textContent = verdict[set.fail];
+  }
 }
 
 function createChild(parent, tag) {
