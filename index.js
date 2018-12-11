@@ -77,7 +77,7 @@ function scanSet(set, container) {
   var table = createChild(container, "table");
   
   var thead = createChild(table, "thead");
-  createChild(thead, "td").textContent = "Subdomain";
+  createChild(thead, "td").textContent = "Root Certificate";
   createChild(thead, "td").textContent = "Result";
   createChild(thead, "td").textContent = "Expected";
 
