@@ -61,7 +61,7 @@ function test(origin, set, tr) {
   } else {
     tr.classList.add("expected-" + set.fail);
     tr.querySelector(".result").textContent = "No Test Website";
-    tr.querySelector(".expected").textContent = verdict[set.fail];
+    tr.querySelector(".expected").textContent = verdict[set.maybe];
   }
 }
 
