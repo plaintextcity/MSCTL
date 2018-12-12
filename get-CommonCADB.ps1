@@ -26,7 +26,8 @@
     param (
         [switch]$Progress,
         [switch]$Mozilla,
-        [switch]$Microsoft        
+        [switch]$Microsoft,
+        [switch]$Google
     )
     
     begin {
@@ -39,41 +40,47 @@
         }
     
         $allcerts = "http://ccadb-public.secure.force.com/mozilla/AllCertificateRecordsCSVFormat"
+        $googleroots = "https://pki.google.com/roots.pem"
         [System.Collections.ArrayList]$Keys = @()
     }
     
     process {
+        Invoke-WebRequest -Uri $googleroots -OutFile "googleroots.pem"
+        $googleRoots = (get-content .\googleroots.pem | select-string -pattern "SHA256 FINGERPRINT" ) -split " " | where-object {$_.length -gt 20} | foreach-object{$_ -replace ":",""}
+
         Invoke-WebRequest -Uri $allcerts -OutFile "AllCertificateRecords.csv"
         $rootcerts = import-csv -path "AllCertificateRecords.csv" | where-object { `
             $_."Certificate Record Type" -eq "Root Certificate" `
             -and (($_."Mozilla Status" -eq "Included" -and $Mozilla) `
               -or ($_."Microsoft Status" -like "Included*" -and $Microsoft))  }
-        # $rootcerts | Measure-Object
-        # $rootcerts | Select-Object -Property "CA Owner","Certificate Name","Test Website URL - Valid" | ft -autosize
    
         $rootcerts | select-object -property "CA Owner" -unique | foreach-object {
             $caowner = $_."CA Owner"
             [System.Collections.ArrayList]$subdomains = @()
             $rootcerts | where-object {$_."CA Owner" -eq $caowner} | foreach-object {
-                $moztrust = ""
-                $mstrust = ""
-                if ($_."Mozilla Status" -like "Included*" -and $Mozilla) {
-                    $moztrust = "Moz"
-                } 
-                if ($_."Microsoft Status" -like "Included*" -and $Microsoft) {
-                    $mstrust = "MS"
-                }
-                $certname = $_."Certificate Name"
+                $catrust = ""
+                $certsha256 = $_."SHA-256 Fingerprint"
+                $certname = $_."Certificate Name"              
                 $validURL = $_."Test Website URL - Valid"
+
+                if ($_."Microsoft Status" -like "Included*" -and $Microsoft) {
+                    $catrust += "MS"
+                }
+                if ($_."Mozilla Status" -like "Included*" -and $Mozilla) {
+                    $catrust += "Moz"
+                } 
+                if ($certsha256 -in $googleRoots -and $Google) {
+                    $catrust += "Goog"
+                }
+
                 $validURL = $validURL -Replace "https://", ""   
                 $subdomain = [PSCustomObject]@{
-                    # subdomain = "$certname - $moztrust $mstrust`:$validURL"
-                    subdomain = "$certname ($moztrust $mstrust)`:$validURL"
+                    subdomain = "$certname ($catrust)`:$validURL"
                 }
                 $null = $subdomains.Add($subdomain)
             }
             $rootcert = [PSCustomObject]@{
-                heading = "$caowner $catrust"
+                heading = "$caowner"
                 success = "yes"
                 fail = "no"
                 subdomains = $subdomains
