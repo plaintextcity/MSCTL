@@ -11,10 +11,10 @@ function createSpinner() {
 function calculateOrigin(config) {
   var arrOrigin = config.subdomain.split(":");
   var origin = ""
-  if (arrOrigin[2]) {
-    origin = "https:" + arrOrigin[1];
+  if (arrOrigin[1]) {
+    origin = "https://" + arrOrigin[1];
   }
-  if (arrOrigin[3]) {
+  if (arrOrigin[2]) {
     origin += ":" + arrOrigin[2];
   }
   return origin;
