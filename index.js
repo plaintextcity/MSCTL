@@ -31,7 +31,54 @@ function request(origin, success, failure) {
   // browsers anyhow. 
   if (self.fetch) {
     var url = origin;    
-    fetch(url, {mode: "no-cors"}).then(success, failure);
+    // Original Fetch
+//    fetch(url, {mode: "no-cors"}).then(success, failure);
+
+// Example fetch
+      fetch(url, {mode: "no-cors"})
+      .then(success, failure)
+      .catch(function(err) {
+        console.log('Fetch Error :-S', err);
+      });
+
+
+    // can we get the network error
+
+    /*
+    fetch(url, {mode: "no-cors"})
+    .then(
+      function(response) {
+        console.log(response.headers.get('Content-Type'));
+        console.log(response.headers.get('Date'));
+        console.log(response.status);
+        console.log(response.statusText);
+        console.log(response.type);
+        console.log(response.url);
+
+        // Examine the text in the response
+        response.json().then(function(data) {
+          console.log(data);
+        }
+        
+        );
+      },
+      success);
+    .catch(function(err) {
+      console.log('Fetch Error :-S', err);
+    });
+  */
+
+/*
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+          return;
+        }
+
+
+*/
+
+
   } else {
   
   // Images don't require CORS.
