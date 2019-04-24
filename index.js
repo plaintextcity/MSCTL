@@ -32,15 +32,14 @@ function request(origin, success, failure) {
   if (self.fetch) {
     var url = origin;    
     // Original Fetch
-//    fetch(url, {mode: "no-cors"}).then(success, failure);
+    //    fetch(url, {mode: "no-cors"}).then(success, failure);
 
-// Example fetch
+   // Example fetch
       fetch(url, {mode: "no-cors"})
       .then(success, failure)
       .catch(function(err) {
         console.log('Fetch Error :-S', err);
       });
-
 
     // can we get the network error
 
