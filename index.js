@@ -31,61 +31,21 @@ function request(origin, success, failure) {
   // browsers anyhow. 
   if (self.fetch) {
     var url = origin;    
-    // Original Fetch
-    //    fetch(url, {mode: "no-cors"}).then(success, failure);
 
-   // Example fetch
       fetch(url, {mode: "no-cors"})
+      .then(res => {
+        if(res.ok) {
+          return res;
+        } else {
+          console.log(`Request rejected with status ${res.status}:-S,`, url);
+        }
+      })
       .then(success, failure)
-      .catch(function(err) {
-        console.log('Fetch Error :-S', err);
-      });
+//      .catch(err => console.error('Caught error: ', err))
+//      .catch(function(err) {
+//        console.log('Fetch Error :-S', err);
+//      });
 
-    // can we get the network error
-
-    /*
-    fetch(url, {mode: "no-cors"})
-    .then(
-      function(response) {
-        console.log(response.headers.get('Content-Type'));
-        console.log(response.headers.get('Date'));
-        console.log(response.status);
-        console.log(response.statusText);
-        console.log(response.type);
-        console.log(response.url);
-
-        // Examine the text in the response
-        response.json().then(function(data) {
-          console.log(data);
-        }
-        
-        );
-      },
-      success);
-    .catch(function(err) {
-      console.log('Fetch Error :-S', err);
-    });
-  */
-
-/*
-        if (response.status !== 200) {
-          console.log('Looks like there was a problem. Status Code: ' +
-            response.status);
-          return;
-        }
-
-
-*/
-
-
-  } else {
-  
-  // Images don't require CORS.
-  //var img = new Image();
-  //  var url = origin + "/test/dashboard/small-image.png";    
-  //img.addEventListener("load", success, false);
-  //img.addEventListener("error", failure, false);
-  //img.src = url;
   }
 }
 
