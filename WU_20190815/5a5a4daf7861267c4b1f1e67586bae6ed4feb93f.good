@@ -1,0 +1,63 @@
+Issuer:
+    CN=SSC Root CA A
+    OU=Certification Authority
+    O=Skaitmeninio sertifikavimo centras
+    C=LT
+  Name Hash(sha1): de0b5919f4935ee20cfecc48c9f24952ba1fa89d
+  Name Hash(md5): 533e14be053e0f3bd83aaad1879d3c0b
+Subject:
+    CN=SSC Root CA A
+    OU=Certification Authority
+    O=Skaitmeninio sertifikavimo centras
+    C=LT
+  Name Hash(sha1): de0b5919f4935ee20cfecc48c9f24952ba1fa89d
+  Name Hash(md5): 533e14be053e0f3bd83aaad1879d3c0b
+Cert Serial Number: 6607a3d29d2956180ee15e5998b18455
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=SSC Root CA A, OU=Certification Authority, O=Skaitmeninio sertifikavimo centras, C=LT
+  NotBefore: 12/27/2006 8:18 AM
+  NotAfter: 12/28/2026 8:05 AM
+  Subject: CN=SSC Root CA A, OU=Certification Authority, O=Skaitmeninio sertifikavimo centras, C=LT
+  Serial: 6607a3d29d2956180ee15e5998b18455
+  3fb9fed46eae6b58671e1f4b7c266178af4d5a5a
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 1.3.6.1.4.1.22501.1.2.0 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  3fb9fed46eae6b58671e1f4b7c266178af4d5a5a
+------------------------------------
+Verified Issuance Policies:
+    1.3.6.1.4.1.22501.1.2.0
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+
+ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0x80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+
+CertUtil: -verify command completed successfully.

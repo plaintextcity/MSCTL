@@ -1,0 +1,52 @@
+Issuer:
+    CN=Microsoft ECC TS Root Certificate Authority 2018
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): 6553b8775310ca02f66a200e51ea2ffbb6f61e26
+  Name Hash(md5): 2c773b026a40f680ee66a05994ea99a8
+Subject:
+    CN=Microsoft ECC TS Root Certificate Authority 2018
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): 6553b8775310ca02f66a200e51ea2ffbb6f61e26
+  Name Hash(md5): 2c773b026a40f680ee66a05994ea99a8
+Cert Serial Number: 153875e1647ed1b047b4efaf41128245
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=13c dwErrorStatus=0
+  Issuer: CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  NotBefore: 2/27/2018 4:51 PM
+  NotAfter: 2/27/2043 5:00 PM
+  Subject: CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  Serial: 153875e1647ed1b047b4efaf41128245
+  744253443a5bc69572ea21b7865980a38bfcf931
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  744253443a5bc69572ea21b7865980a38bfcf931
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies: All
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

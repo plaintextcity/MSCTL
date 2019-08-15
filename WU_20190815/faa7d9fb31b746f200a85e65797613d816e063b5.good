@@ -1,0 +1,62 @@
+Issuer:
+    CN=VRK Gov. Root CA
+    OU=Varmennepalvelut
+    OU=Certification Authority Services
+    O=Vaestorekisterikeskus CA
+    S=Finland
+    C=FI
+  Name Hash(sha1): 78b275314460638375dbd7ea8d681ebf992a7ce7
+  Name Hash(md5): 8a11cbdcee909a825fb1eb5b53194e2e
+Subject:
+    CN=VRK Gov. Root CA
+    OU=Varmennepalvelut
+    OU=Certification Authority Services
+    O=Vaestorekisterikeskus CA
+    S=Finland
+    C=FI
+  Name Hash(sha1): 78b275314460638375dbd7ea8d681ebf992a7ce7
+  Name Hash(md5): 8a11cbdcee909a825fb1eb5b53194e2e
+Cert Serial Number: 0186a0
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=VRK Gov. Root CA, OU=Varmennepalvelut, OU=Certification Authority Services, O=Vaestorekisterikeskus CA, S=Finland, C=FI
+  NotBefore: 12/18/2002 9:53 AM
+  NotAfter: 12/18/2023 9:51 AM
+  Subject: CN=VRK Gov. Root CA, OU=Varmennepalvelut, OU=Certification Authority Services, O=Vaestorekisterikeskus CA, S=Finland, C=FI
+  Serial: 0186a0
+  b563e016d8137679655ea800f246b731fbd9a7fa
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b563e016d8137679655ea800f246b731fbd9a7fa
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

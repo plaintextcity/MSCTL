@@ -1,0 +1,61 @@
+Issuer:
+    CN=ANF Global Root CA
+    SERIALNUMBER=G63287510
+    E=info@anf.es
+    OU=ANF Clase 1 CA
+    O=ANF Autoridad de Certificacion
+    L=Barcelona (see current address at http://www.anf.es/es/address-direccion.html )
+    S=Barcelona
+    C=ES
+  Name Hash(sha1): c9c32615a4928fbf486faac2d653823467c6a0f5
+  Name Hash(md5): dcff6a77ac03ba9c443a75649a839aef
+Subject:
+    CN=ANF Global Root CA
+    SERIALNUMBER=G63287510
+    E=info@anf.es
+    OU=ANF Clase 1 CA
+    O=ANF Autoridad de Certificacion
+    L=Barcelona (see current address at http://www.anf.es/es/address-direccion.html )
+    S=Barcelona
+    C=ES
+  Name Hash(sha1): c9c32615a4928fbf486faac2d653823467c6a0f5
+  Name Hash(md5): dcff6a77ac03ba9c443a75649a839aef
+Cert Serial Number: 013f2f31536f
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=ANF Global Root CA, SERIALNUMBER=G63287510, E=info@anf.es, OU=ANF Clase 1 CA, O=ANF Autoridad de Certificacion, L=Barcelona (see current address at http://www.anf.es/es/address-direccion.html ), S=Barcelona, C=ES
+  NotBefore: 6/10/2013 1:45 PM
+  NotAfter: 6/5/2033 1:45 PM
+  Subject: CN=ANF Global Root CA, SERIALNUMBER=G63287510, E=info@anf.es, OU=ANF Clase 1 CA, O=ANF Autoridad de Certificacion, L=Barcelona (see current address at http://www.anf.es/es/address-direccion.html ), S=Barcelona, C=ES
+  Serial: 013f2f31536f
+  SubjectAltName: DNS Name=http://www.anf.es, RFC822 Name=info@anf.es, Directory Address:OU=Inscrita en el Ministerio del Interior de España con el numero nacional 171.443, SERIALNUMBER=G63287510, O=ANF Autoridad de Certificacion, L=Barcelona, STREET=Gran Via de les Corts Catalanes. 996. 08018
+  d43af4521ddb0051dd3a467914391bd12099b55b
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  d43af4521ddb0051dd3a467914391bd12099b55b
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

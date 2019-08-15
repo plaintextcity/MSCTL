@@ -1,0 +1,59 @@
+Issuer:
+    CN=OATI WebCARES Root CA
+    O=Open Access Technology International Inc
+    L=Minneapolis
+    S=MN
+    C=US
+  Name Hash(sha1): 891395b1cc359466643e41eaec5c3dc36d067697
+  Name Hash(md5): 25b0a21d8da91cf2b100d5b2c16943de
+Subject:
+    CN=OATI WebCARES Root CA
+    O=Open Access Technology International Inc
+    L=Minneapolis
+    S=MN
+    C=US
+  Name Hash(sha1): 891395b1cc359466643e41eaec5c3dc36d067697
+  Name Hash(md5): 25b0a21d8da91cf2b100d5b2c16943de
+Cert Serial Number: 025762066a7560874f9004bfa1c82841
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=OATI WebCARES Root CA, O=Open Access Technology International Inc, L=Minneapolis, S=MN, C=US
+  NotBefore: 6/3/2008 3:28 PM
+  NotAfter: 6/3/2038 3:36 PM
+  Subject: CN=OATI WebCARES Root CA, O=Open Access Technology International Inc, L=Minneapolis, S=MN, C=US
+  Serial: 025762066a7560874f9004bfa1c82841
+  Template: CA
+  1340d8d5d98c59bc62b9e20cc8464e88d3d26b4b
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 1.2.840.114278.11.1 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  1340d8d5d98c59bc62b9e20cc8464e88d3d26b4b
+------------------------------------
+Verified Issuance Policies:
+    1.2.840.114278.11.1
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Leaf certificate revocation check passed
+CertUtil: -verify command completed successfully.

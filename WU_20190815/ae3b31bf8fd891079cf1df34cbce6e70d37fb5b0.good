@@ -1,0 +1,56 @@
+Issuer:
+    C=IL
+    O=ComSign Ltd.
+    CN=ComSign Global Root CA
+  Name Hash(sha1): 95d221d5db2806aa4d3e3624fe700b9f2a8715df
+  Name Hash(md5): b390cdae4cdfbdc667a0fc6692afe6f8
+Subject:
+    C=IL
+    O=ComSign Ltd.
+    CN=ComSign Global Root CA
+  Name Hash(sha1): 95d221d5db2806aa4d3e3624fe700b9f2a8715df
+  Name Hash(md5): b390cdae4cdfbdc667a0fc6692afe6f8
+Cert Serial Number: 8f617115ba7958178c7d113aacd6dbae
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: C=IL, O=ComSign Ltd., CN=ComSign Global Root CA
+  NotBefore: 7/18/2011 6:24 AM
+  NotAfter: 7/16/2036 6:24 AM
+  Subject: C=IL, O=ComSign Ltd., CN=ComSign Global Root CA
+  Serial: 8f617115ba7958178c7d113aacd6dbae
+  b0b57fd3706ececb34dff19c0791d88fbf313bae
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[4] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b0b57fd3706ececb34dff19c0791d88fbf313bae
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.5.5.7.3.9 OCSP Signing
+Cert is a CA certificate
+Leaf certificate revocation check passed
+CertUtil: -verify command completed successfully.

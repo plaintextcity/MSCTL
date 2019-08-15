@@ -1,0 +1,58 @@
+Issuer:
+    CN=CCA India 2014
+    O=India PKI
+    C=IN
+  Name Hash(sha1): f7f2c6f36e25c430dce558de3ce2920bc0207e85
+  Name Hash(md5): 5435132b7c03fa70fa76d8b81563a82e
+Subject:
+    CN=CCA India 2014
+    O=India PKI
+    C=IN
+  Name Hash(sha1): f7f2c6f36e25c430dce558de3ce2920bc0207e85
+  Name Hash(md5): 5435132b7c03fa70fa76d8b81563a82e
+Cert Serial Number: 27ad
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=CCA India 2014, O=India PKI, C=IN
+  NotBefore: 3/5/2014 6:10 AM
+  NotAfter: 3/5/2024 6:10 AM
+  Subject: CN=CCA India 2014, O=India PKI, C=IN
+  Serial: 27ad
+  9119e168499a96d7d65dced91928d9685a6bb8a2
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[3] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[4] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  9119e168499a96d7d65dced91928d9685a6bb8a2
+  Issuer: CN=CCA India 2014, O=India PKI, C=IN
+  NotBefore: 3/5/2014 6:10 AM
+  NotAfter: 3/5/2024 6:10 AM
+  Subject: CN=CCA India 2014, O=India PKI, C=IN
+  Serial: 27ad
+  9119e168499a96d7d65dced91928d9685a6bb8a2
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

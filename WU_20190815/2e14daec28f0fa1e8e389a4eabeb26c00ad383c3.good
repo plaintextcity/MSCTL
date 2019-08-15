@@ -1,0 +1,66 @@
+Issuer:
+    CN=Certinomis - Autorité Racine
+    OU=0002 433998903
+    O=Certinomis
+    C=FR
+  Name Hash(sha1): 5de0ed4d87911c7f7be04b26475d5ba2a2d694a7
+  Name Hash(md5): 4bac72763c67598b2f0f06c86832b6e6
+Subject:
+    CN=Certinomis - Autorité Racine
+    OU=0002 433998903
+    O=Certinomis
+    C=FR
+  Name Hash(sha1): 5de0ed4d87911c7f7be04b26475d5ba2a2d694a7
+  Name Hash(md5): 4bac72763c67598b2f0f06c86832b6e6
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Certinomis - Autorité Racine, OU=0002 433998903, O=Certinomis, C=FR
+  NotBefore: 9/17/2008 4:28 AM
+  NotAfter: 9/17/2028 4:28 AM
+  Subject: CN=Certinomis - Autorité Racine, OU=0002 433998903, O=Certinomis, C=FR
+  Serial: 01
+  c383d30ac026ebab4e9a388e1efaf028ecda142e
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 1.2.250.1.86.2.2.0.1.1 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  c383d30ac026ebab4e9a388e1efaf028ecda142e
+------------------------------------
+Verified Issuance Policies:
+    1.2.250.1.86.2.2.0.1.1
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

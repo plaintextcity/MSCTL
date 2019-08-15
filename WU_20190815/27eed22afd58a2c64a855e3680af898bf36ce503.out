@@ -1,0 +1,60 @@
+Issuer:
+    CN=CA DATEV STD 03
+    O=DATEV eG
+    C=DE
+  Name Hash(sha1): 838dd49e7381790cb7ddc8733ea1bc9bcb72f6da
+  Name Hash(md5): ee8dfdd10e9d3057761b9cd51d64bc33
+Subject:
+    CN=CA DATEV STD 03
+    O=DATEV eG
+    C=DE
+  Name Hash(sha1): 838dd49e7381790cb7ddc8733ea1bc9bcb72f6da
+  Name Hash(md5): ee8dfdd10e9d3057761b9cd51d64bc33
+Cert Serial Number: 7cc095ead59474e9c42d1a95ee219921
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=109 dwErrorStatus=10
+  Issuer: CN=CA DATEV STD 03, O=DATEV eG, C=DE
+  NotBefore: 5/2/2014 1:40 AM
+  NotAfter: 8/2/2022 3:40 AM
+  Subject: CN=CA DATEV STD 03, O=DATEV eG, C=DE
+  Serial: 7cc095ead59474e9c42d1a95ee219921
+  03e56cf38b89af80365e854ac6a258fd2ad2ee27
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Issuance[0] = 0.4.0.2042.1.2 
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[3] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+  Application[4] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  03e56cf38b89af80365e854ac6a258fd2ad2ee27
+  Issuer: CN=CA DATEV STD 03, O=DATEV eG, C=DE
+  NotBefore: 5/2/2014 1:40 AM
+  NotAfter: 8/2/2022 3:40 AM
+  Subject: CN=CA DATEV STD 03, O=DATEV eG, C=DE
+  Serial: 7cc095ead59474e9c42d1a95ee219921
+  03e56cf38b89af80365e854ac6a258fd2ad2ee27
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

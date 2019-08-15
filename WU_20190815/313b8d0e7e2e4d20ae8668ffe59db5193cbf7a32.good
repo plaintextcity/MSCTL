@@ -1,0 +1,52 @@
+Issuer:
+    CN=PosDigicert Class 2 Root CA G2
+    O=Digicert Sdn. Bhd.
+    C=MY
+  Name Hash(sha1): 429de25b9e77ed463fcdc057f2e1c4e2c4d05de3
+  Name Hash(md5): c96f8b5c49ba760ff6ada2156e6b7bd1
+Subject:
+    CN=PosDigicert Class 2 Root CA G2
+    O=Digicert Sdn. Bhd.
+    C=MY
+  Name Hash(sha1): 429de25b9e77ed463fcdc057f2e1c4e2c4d05de3
+  Name Hash(md5): c96f8b5c49ba760ff6ada2156e6b7bd1
+Cert Serial Number: 98205c
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=PosDigicert Class 2 Root CA G2, O=Digicert Sdn. Bhd., C=MY
+  NotBefore: 10/16/2016 11:02 PM
+  NotAfter: 10/16/2036 11:02 PM
+  Subject: CN=PosDigicert Class 2 Root CA G2, O=Digicert Sdn. Bhd., C=MY
+  Serial: 98205c
+  327abf3c19b59de5ff6886ae204d2e7e0e8d3b31
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  327abf3c19b59de5ff6886ae204d2e7e0e8d3b31
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

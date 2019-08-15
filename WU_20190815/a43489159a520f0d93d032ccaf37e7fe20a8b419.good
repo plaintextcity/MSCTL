@@ -1,0 +1,47 @@
+Issuer:
+    CN=Microsoft Root Authority
+    OU=Microsoft Corporation
+    OU=Copyright (c) 1997 Microsoft Corp.
+  Name Hash(sha1): 6f7079ad4e270737dfc7a4ffdb99e352e74937cc
+  Name Hash(md5): 6c6fe103005e9dda7f0d5b92f8ca4a40
+Subject:
+    CN=Microsoft Root Authority
+    OU=Microsoft Corporation
+    OU=Copyright (c) 1997 Microsoft Corp.
+  Name Hash(sha1): 6f7079ad4e270737dfc7a4ffdb99e352e74937cc
+  Name Hash(md5): 6c6fe103005e9dda7f0d5b92f8ca4a40
+Cert Serial Number: c1008b3c3c8811d13ef663ecdf40
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=139 dwErrorStatus=0
+  Issuer: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.
+  NotBefore: 1/10/1997 3:00 AM
+  NotAfter: 12/31/2020 3:00 AM
+  Subject: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.
+  Serial: c1008b3c3c8811d13ef663ecdf40
+  19b4a820fee737afcc32d0930d0f529a158934a4
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  19b4a820fee737afcc32d0930d0f529a158934a4
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies: All
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

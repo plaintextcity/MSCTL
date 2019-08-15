@@ -1,0 +1,58 @@
+Issuer:
+    CN=IdenTrust Commercial Root CA 1
+    O=IdenTrust
+    C=US
+  Name Hash(sha1): d07c43a2a0f778fed080dff8600e49515c1d05c2
+  Name Hash(md5): 66908ed134572466070299553e6e2b99
+Subject:
+    CN=IdenTrust Commercial Root CA 1
+    O=IdenTrust
+    C=US
+  Name Hash(sha1): d07c43a2a0f778fed080dff8600e49515c1d05c2
+  Name Hash(md5): 66908ed134572466070299553e6e2b99
+Cert Serial Number: 0a0142800000014523c844b500000002
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  NotBefore: 1/16/2014 2:12 PM
+  NotAfter: 1/16/2034 2:12 PM
+  Subject: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  Serial: 0a0142800000014523c844b500000002
+  253af0bc5fde482d60998455c94ed94aaa7e71df
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[4] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  253af0bc5fde482d60998455c94ed94aaa7e71df
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

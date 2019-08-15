@@ -1,0 +1,62 @@
+Issuer:
+    CN=SwissSign Platinum Root CA - G3
+    O=SwissSign AG
+    C=CH
+  Name Hash(sha1): 4a59592d1fe4611eff549e36d472bf4abe7fa6cd
+  Name Hash(md5): 262392ddbe8610c4db41d8b7b78a6d4d
+Subject:
+    CN=SwissSign Platinum Root CA - G3
+    O=SwissSign AG
+    C=CH
+  Name Hash(sha1): 4a59592d1fe4611eff549e36d472bf4abe7fa6cd
+  Name Hash(md5): 262392ddbe8610c4db41d8b7b78a6d4d
+Cert Serial Number: 223fa91720de8194
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=SwissSign Platinum Root CA - G3, O=SwissSign AG, C=CH
+  NotBefore: 8/4/2009 9:34 AM
+  NotAfter: 8/4/2037 9:34 AM
+  Subject: CN=SwissSign Platinum Root CA - G3, O=SwissSign AG, C=CH
+  Serial: 223fa91720de8194
+  b9b461c2ed03979b4fc94bb7e57041aa00c6e7a1
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b9b461c2ed03979b4fc94bb7e57041aa00c6e7a1
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

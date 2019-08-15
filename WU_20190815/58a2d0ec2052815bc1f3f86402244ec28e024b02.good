@@ -1,0 +1,56 @@
+Issuer:
+    CN=Hongkong Post Root CA 3
+    O=Hongkong Post
+    L=Hong Kong
+    S=Hong Kong
+    C=HK
+  Name Hash(sha1): 55f003ec26723b65ec4b936600e5d1af9fa80fa9
+  Name Hash(md5): dde143bd8f2e86831fdde855ebe39412
+Subject:
+    CN=Hongkong Post Root CA 3
+    O=Hongkong Post
+    L=Hong Kong
+    S=Hong Kong
+    C=HK
+  Name Hash(sha1): 55f003ec26723b65ec4b936600e5d1af9fa80fa9
+  Name Hash(md5): dde143bd8f2e86831fdde855ebe39412
+Cert Serial Number: 08165f8a4ca5ec00c99340dfc4c6ae23b81c5aa4
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=Hongkong Post Root CA 3, O=Hongkong Post, L=Hong Kong, S=Hong Kong, C=HK
+  NotBefore: 6/2/2017 10:29 PM
+  NotAfter: 6/2/2042 10:29 PM
+  Subject: CN=Hongkong Post Root CA 3, O=Hongkong Post, L=Hong Kong, S=Hong Kong, C=HK
+  Serial: 08165f8a4ca5ec00c99340dfc4c6ae23b81c5aa4
+  024b028ec24e240264f8f3c15b815220ecd0a258
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  024b028ec24e240264f8f3c15b815220ecd0a258
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.9 OCSP Signing
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

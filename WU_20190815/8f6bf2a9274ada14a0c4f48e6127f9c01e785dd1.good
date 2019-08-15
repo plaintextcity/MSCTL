@@ -1,0 +1,54 @@
+Issuer:
+    CN=NAVER Global Root Certification Authority
+    O=NAVER BUSINESS PLATFORM Corp.
+    C=KR
+  Name Hash(sha1): fcc3e143973af986f6b33251f56e17bbee86f58c
+  Name Hash(md5): 2c0a9bd33f9ce7f5b5d170e01e3b79b6
+Subject:
+    CN=NAVER Global Root Certification Authority
+    O=NAVER BUSINESS PLATFORM Corp.
+    C=KR
+  Name Hash(sha1): fcc3e143973af986f6b33251f56e17bbee86f58c
+  Name Hash(md5): 2c0a9bd33f9ce7f5b5d170e01e3b79b6
+Cert Serial Number: 0194301ea20bddf5c5332ab1434471f8d6504d0d
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=NAVER Global Root Certification Authority, O=NAVER BUSINESS PLATFORM Corp., C=KR
+  NotBefore: 8/18/2017 4:58 AM
+  NotAfter: 8/18/2037 7:59 PM
+  Subject: CN=NAVER Global Root Certification Authority, O=NAVER BUSINESS PLATFORM Corp., C=KR
+  Serial: 0194301ea20bddf5c5332ab1434471f8d6504d0d
+  d15d781ec0f927618ef4c4a014da4a27a9f26b8f
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[1] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  d15d781ec0f927618ef4c4a014da4a27a9f26b8f
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

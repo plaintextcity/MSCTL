@@ -1,0 +1,67 @@
+Issuer:
+    CN=E-Tugra Certification Authority
+    OU=E-Tugra Sertifikasyon Merkezi
+    O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S.
+    L=Ankara
+    C=TR
+  Name Hash(sha1): dc265a9e5b482fe93f765cd1daf96d8ea22b519c
+  Name Hash(md5): 246115cb2fc8e0dfe9d003e2486d496f
+Subject:
+    CN=E-Tugra Certification Authority
+    OU=E-Tugra Sertifikasyon Merkezi
+    O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S.
+    L=Ankara
+    C=TR
+  Name Hash(sha1): dc265a9e5b482fe93f765cd1daf96d8ea22b519c
+  Name Hash(md5): 246115cb2fc8e0dfe9d003e2486d496f
+Cert Serial Number: 6a683e9c519bcb53
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+ChainContext.dwRevocationFreshnessTime: 0s
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+SimpleChain.dwRevocationFreshnessTime: 0s
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=4000024
+  Issuer: CN=E-Tugra Certification Authority, OU=E-Tugra Sertifikasyon Merkezi, O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S., L=Ankara, C=TR
+  NotBefore: 3/5/2013 8:09 AM
+  NotAfter: 3/3/2023 8:09 AM
+  Subject: CN=E-Tugra Certification Authority, OU=E-Tugra Sertifikasyon Merkezi, O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S., L=Ankara, C=TR
+  Serial: 6a683e9c519bcb53
+  3952c38f62a36d0da05cd492f36e064908e7c651
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+  Element.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+  Element.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  3952c38f62a36d0da05cd492f36e064908e7c651
+  Issuer: CN=E-Tugra Certification Authority, OU=E-Tugra Sertifikasyon Merkezi, O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S., L=Ankara, C=TR
+  NotBefore: 3/5/2013 8:09 AM
+  NotAfter: 3/3/2023 8:09 AM
+  Subject: CN=E-Tugra Certification Authority, OU=E-Tugra Sertifikasyon Merkezi, O=E-Tugra EBG Bilisim Teknolojileri ve Hizmetleri A.S., L=Ankara, C=TR
+  Serial: 6a683e9c519bcb53
+  3952c38f62a36d0da05cd492f36e064908e7c651
+The certificate is revoked. 0x80092010 (-2146885616 CRYPT_E_REVOKED)
+------------------------------------
+Certificate is REVOKED
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

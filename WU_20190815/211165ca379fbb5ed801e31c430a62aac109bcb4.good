@@ -1,0 +1,54 @@
+Issuer:
+    CN=Registradores de España - CA Raíz
+    OU=Certificado Propio
+    O=Colegio de Registradores de la Propiedad y Mercantiles de España
+    C=ES
+  Name Hash(sha1): 73154db5b338c7daaf629e7b11fc64aacb58d126
+  Name Hash(md5): c5bc7f8a5674b99aecf9fce6c7b223ad
+Subject:
+    CN=Registradores de España - CA Raíz
+    OU=Certificado Propio
+    O=Colegio de Registradores de la Propiedad y Mercantiles de España
+    C=ES
+  Name Hash(sha1): 73154db5b338c7daaf629e7b11fc64aacb58d126
+  Name Hash(md5): c5bc7f8a5674b99aecf9fce6c7b223ad
+Cert Serial Number: 2de40ae19bd1c2aa4cf400ac8135f9
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Registradores de España - CA Raíz, OU=Certificado Propio, O=Colegio de Registradores de la Propiedad y Mercantiles de España, C=ES
+  NotBefore: 1/9/2007 1:00 PM
+  NotAfter: 1/9/2031 1:00 PM
+  Subject: CN=Registradores de España - CA Raíz, OU=Certificado Propio, O=Colegio de Registradores de la Propiedad y Mercantiles de España, C=ES
+  Serial: 2de40ae19bd1c2aa4cf400ac8135f9
+  b4bc09c1aa620a431ce301d85ebb9f37ca651121
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b4bc09c1aa620a431ce301d85ebb9f37ca651121
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

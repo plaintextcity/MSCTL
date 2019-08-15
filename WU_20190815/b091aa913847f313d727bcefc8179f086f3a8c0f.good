@@ -1,0 +1,54 @@
+Issuer:
+    O=Government Root Certification Authority
+    C=TW
+  Name Hash(sha1): dd35e8699f9fbb6fdeb7c4c3073a2f44c4aa70c2
+  Name Hash(md5): 4c6fcd1d6cf75d100f89aa6eec7babec
+Subject:
+    O=Government Root Certification Authority
+    C=TW
+  Name Hash(sha1): dd35e8699f9fbb6fdeb7c4c3073a2f44c4aa70c2
+  Name Hash(md5): 4c6fcd1d6cf75d100f89aa6eec7babec
+Cert Serial Number: b64b8807e223eec85c12ada60e06a1f2
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: O=Government Root Certification Authority, C=TW
+  NotBefore: 9/28/2012 4:58 AM
+  NotAfter: 12/31/2037 11:59 AM
+  Subject: O=Government Root Certification Authority, C=TW
+  Serial: b64b8807e223eec85c12ada60e06a1f2
+  0f8c3a6f089f17c8efbc27d713f3473891aa91b0
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  0f8c3a6f089f17c8efbc27d713f3473891aa91b0
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

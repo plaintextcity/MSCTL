@@ -1,0 +1,50 @@
+Issuer:
+    CN=Staat der Nederlanden EV Root CA
+    O=Staat der Nederlanden
+    C=NL
+  Name Hash(sha1): 54e857e287d993fb6c0001fa3739b6e35c0e2c21
+  Name Hash(md5): aa76663cf689f8f1be826758a62ed9e4
+Subject:
+    CN=Staat der Nederlanden EV Root CA
+    O=Staat der Nederlanden
+    C=NL
+  Name Hash(sha1): 54e857e287d993fb6c0001fa3739b6e35c0e2c21
+  Name Hash(md5): aa76663cf689f8f1be826758a62ed9e4
+Cert Serial Number: 98968d
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Staat der Nederlanden EV Root CA, O=Staat der Nederlanden, C=NL
+  NotBefore: 12/8/2010 7:19 AM
+  NotAfter: 12/8/2022 7:10 AM
+  Subject: CN=Staat der Nederlanden EV Root CA, O=Staat der Nederlanden, C=NL
+  Serial: 98968d
+  bbdbedb4293dbe05b575a6c0c182db4fc17ee276
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  bbdbedb4293dbe05b575a6c0c182db4fc17ee276
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

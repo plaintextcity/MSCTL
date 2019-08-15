@@ -1,0 +1,54 @@
+Issuer:
+    CN=Class 1 Primary CA
+    O=Certplus
+    C=FR
+  Name Hash(sha1): 98d9379a2d35e0a61679a883455ebcc1c7da0672
+  Name Hash(md5): 30b22d8397645296b62517c8415e882d
+Subject:
+    CN=Class 1 Primary CA
+    O=Certplus
+    C=FR
+  Name Hash(sha1): 98d9379a2d35e0a61679a883455ebcc1c7da0672
+  Name Hash(md5): 30b22d8397645296b62517c8415e882d
+Cert Serial Number: 86fe1d5fc381f847d7332c7394757b37
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Class 1 Primary CA, O=Certplus, C=FR
+  NotBefore: 7/7/1999 1:01 PM
+  NotAfter: 7/6/2020 7:59 PM
+  Subject: CN=Class 1 Primary CA, O=Certplus, C=FR
+  Serial: 86fe1d5fc381f847d7332c7394757b37
+  292844dad8a170d0d3ee5344e8fb16a97045176a
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  292844dad8a170d0d3ee5344e8fb16a97045176a
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+Cert is a CA certificate
+Leaf certificate revocation check passed
+CertUtil: -verify command completed successfully.

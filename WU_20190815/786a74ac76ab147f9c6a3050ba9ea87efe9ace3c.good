@@ -1,0 +1,66 @@
+Issuer:
+    CN=Chambers of Commerce Root - 2008
+    O=AC Camerfirma S.A.
+    SERIALNUMBER=A82743287
+    L=Madrid (see current address at www.camerfirma.com/address)
+    C=EU
+  Name Hash(sha1): 72bb0bc45c98b4239f2ead99495a2fa04c1f6699
+  Name Hash(md5): df7bb31eac04f27a3674dd5d181417f2
+Subject:
+    CN=Chambers of Commerce Root - 2008
+    O=AC Camerfirma S.A.
+    SERIALNUMBER=A82743287
+    L=Madrid (see current address at www.camerfirma.com/address)
+    C=EU
+  Name Hash(sha1): 72bb0bc45c98b4239f2ead99495a2fa04c1f6699
+  Name Hash(md5): df7bb31eac04f27a3674dd5d181417f2
+Cert Serial Number: a3da427ea4b1aeda
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=109 dwErrorStatus=0
+  Issuer: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  NotBefore: 8/1/2008 8:29 AM
+  NotAfter: 7/31/2038 8:29 AM
+  Subject: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Serial: a3da427ea4b1aeda
+  3cce9afe7ea89eba50306a9c7f14ab76ac746a78
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  3cce9afe7ea89eba50306a9c7f14ab76ac746a78
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

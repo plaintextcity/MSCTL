@@ -1,0 +1,60 @@
+Issuer:
+    CN=ANCERT Certificados CGN V2
+    O=Agencia Notarial de Certificacion S.L.U. - CIF B83395988
+    C=ES
+  Name Hash(sha1): fead6a4b6a1bf457e98d9b48140ede0f562485d2
+  Name Hash(md5): 1822b0cc892cdf1d420c91714233cec3
+Subject:
+    CN=ANCERT Certificados CGN V2
+    O=Agencia Notarial de Certificacion S.L.U. - CIF B83395988
+    C=ES
+  Name Hash(sha1): fead6a4b6a1bf457e98d9b48140ede0f562485d2
+  Name Hash(md5): 1822b0cc892cdf1d420c91714233cec3
+Cert Serial Number: 0f388c70fea6955de95d9c87af790499
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=ANCERT Certificados CGN V2, O=Agencia Notarial de Certificacion S.L.U. - CIF B83395988, C=ES
+  NotBefore: 5/25/2010 12:31 PM
+  NotAfter: 5/25/2030 12:31 PM
+  Subject: CN=ANCERT Certificados CGN V2, O=Agencia Notarial de Certificacion S.L.U. - CIF B83395988, C=ES
+  Serial: 0f388c70fea6955de95d9c87af790499
+  0c0736a548847c1d97932bac28f4e59b42a0b17e
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 1.3.6.1.4.1.18920.4 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  0c0736a548847c1d97932bac28f4e59b42a0b17e
+------------------------------------
+Verified Issuance Policies:
+    1.3.6.1.4.1.18920.4
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,52 @@
+Issuer:
+    CN=SZAFIR ROOT CA2
+    O=Krajowa Izba Rozliczeniowa S.A.
+    C=PL
+  Name Hash(sha1): 7036af3c2bea54342640b3ff78c70768e0fdfd68
+  Name Hash(md5): 2b291ea88aac2ddca8623806eff79f71
+Subject:
+    CN=SZAFIR ROOT CA2
+    O=Krajowa Izba Rozliczeniowa S.A.
+    C=PL
+  Name Hash(sha1): 7036af3c2bea54342640b3ff78c70768e0fdfd68
+  Name Hash(md5): 2b291ea88aac2ddca8623806eff79f71
+Cert Serial Number: 3e8a5d07ec55d232d5b7e3b65f01eb2ddce4d6e4
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=SZAFIR ROOT CA2, O=Krajowa Izba Rozliczeniowa S.A., C=PL
+  NotBefore: 10/19/2015 3:43 AM
+  NotAfter: 10/19/2035 3:43 AM
+  Subject: CN=SZAFIR ROOT CA2, O=Krajowa Izba Rozliczeniowa S.A., C=PL
+  Serial: 3e8a5d07ec55d232d5b7e3b65f01eb2ddce4d6e4
+  de3fb35ecfcc9cf3286ebd6024dbed3f95fa52e2
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  de3fb35ecfcc9cf3286ebd6024dbed3f95fa52e2
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

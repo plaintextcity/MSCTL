@@ -1,0 +1,73 @@
+Issuer:
+    CN=Microsec e-Szigno Root CA
+    OU=e-Szigno CA
+    O=Microsec Ltd.
+    L=Budapest
+    C=HU
+  Name Hash(sha1): b87944b15d68db787e86e5f4099dbe03124cd5a3
+  Name Hash(md5): 45ff1bf604cb45f470dfc5adec968faf
+Subject:
+    CN=Microsec e-Szigno Root CA
+    OU=e-Szigno CA
+    O=Microsec Ltd.
+    L=Budapest
+    C=HU
+  Name Hash(sha1): b87944b15d68db787e86e5f4099dbe03124cd5a3
+  Name Hash(md5): 45ff1bf604cb45f470dfc5adec968faf
+Cert Serial Number: ccb8e7bf4e291afda2dc66a51c2c0f11
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+CertContext[0][0]: dwInfoStatus=109 dwErrorStatus=1
+  Issuer: CN=Microsec e-Szigno Root CA, OU=e-Szigno CA, O=Microsec Ltd., L=Budapest, C=HU
+  NotBefore: 4/6/2005 8:28 AM
+  NotAfter: 4/6/2017 8:28 AM
+  Subject: CN=Microsec e-Szigno Root CA, OU=e-Szigno CA, O=Microsec Ltd., L=Budapest, C=HU
+  Serial: ccb8e7bf4e291afda2dc66a51c2c0f11
+  SubjectAltName: RFC822 Name=info@e-szigno.hu, Directory Address:C=HU, L=Budapest, O=Microsec Kft., OU=e-Szignó HSZ, CN=Microsec e-Szignó Root CA
+  0d19ec25d6fccea73c7dff3d969ecc71d3c98823
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+  Issuance[0] = 1.3.6.1.4.1.21528.2.1.1.1 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[4] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[5] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[6] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+  Application[7] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  0d19ec25d6fccea73c7dff3d969ecc71d3c98823
+  Issuer: CN=Microsec e-Szigno Root CA, OU=e-Szigno CA, O=Microsec Ltd., L=Budapest, C=HU
+  NotBefore: 4/6/2005 8:28 AM
+  NotAfter: 4/6/2017 8:28 AM
+  Subject: CN=Microsec e-Szigno Root CA, OU=e-Szigno CA, O=Microsec Ltd., L=Budapest, C=HU
+  Serial: ccb8e7bf4e291afda2dc66a51c2c0f11
+  SubjectAltName: RFC822 Name=info@e-szigno.hu, Directory Address:C=HU, L=Budapest, O=Microsec Kft., OU=e-Szignó HSZ, CN=Microsec e-Szignó Root CA
+  0d19ec25d6fccea73c7dff3d969ecc71d3c98823
+A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file. 0x800b0101 (-2146762495 CERT_E_EXPIRED)
+------------------------------------
+Expired certificate
+Cert is a CA certificate
+
+ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0x80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+
+CertUtil: -verify command completed successfully.

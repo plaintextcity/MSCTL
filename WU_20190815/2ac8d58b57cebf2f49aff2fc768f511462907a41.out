@@ -1,0 +1,71 @@
+Issuer:
+    CN=CA Disig
+    O=Disig a.s.
+    L=Bratislava
+    C=SK
+  Name Hash(sha1): ca3ee27cbadc2d79261f5e34c6c12d508f889c10
+  Name Hash(md5): f3064fd6d9b4be4c9270c8da46f9ea82
+Subject:
+    CN=CA Disig
+    O=Disig a.s.
+    L=Bratislava
+    C=SK
+  Name Hash(sha1): ca3ee27cbadc2d79261f5e34c6c12d508f889c10
+  Name Hash(md5): f3064fd6d9b4be4c9270c8da46f9ea82
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=1
+  Issuer: CN=CA Disig, O=Disig a.s., L=Bratislava, C=SK
+  NotBefore: 3/21/2006 9:39 PM
+  NotAfter: 3/21/2016 9:39 PM
+  Subject: CN=CA Disig, O=Disig a.s., L=Bratislava, C=SK
+  Serial: 01
+  SubjectAltName: RFC822 Name=caoperator@disig.sk, URL=http://www.disig.sk/ca
+  417a906214518f76fcf2af492fbfce578bd5c82a
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+  Issuance[0] = 1.3.158.35975946.0.0.0.1.1.1 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  417a906214518f76fcf2af492fbfce578bd5c82a
+  Issuer: CN=CA Disig, O=Disig a.s., L=Bratislava, C=SK
+  NotBefore: 3/21/2006 9:39 PM
+  NotAfter: 3/21/2016 9:39 PM
+  Subject: CN=CA Disig, O=Disig a.s., L=Bratislava, C=SK
+  Serial: 01
+  SubjectAltName: RFC822 Name=caoperator@disig.sk, URL=http://www.disig.sk/ca
+  417a906214518f76fcf2af492fbfce578bd5c82a
+A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file. 0x800b0101 (-2146762495 CERT_E_EXPIRED)
+------------------------------------
+Expired certificate
+Cert is a CA certificate
+
+ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0x80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+
+CertUtil: -verify command completed successfully.

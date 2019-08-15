@@ -1,0 +1,64 @@
+Issuer:
+    CN=Actalis Authentication CA G1
+    O=Actalis S.p.A./03358520967
+    L=Milano
+    C=IT
+  Name Hash(sha1): 6d571d6f5d9e1d6d94b9fbebbbaa960bda8688a7
+  Name Hash(md5): f36ef6e9b649f5eb433a88aeda4ccd36
+Subject:
+    CN=Actalis Authentication CA G1
+    O=Actalis S.p.A./03358520967
+    L=Milano
+    C=IT
+  Name Hash(sha1): 6d571d6f5d9e1d6d94b9fbebbbaa960bda8688a7
+  Name Hash(md5): f36ef6e9b649f5eb433a88aeda4ccd36
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Actalis Authentication CA G1, O=Actalis S.p.A./03358520967, L=Milano, C=IT
+  NotBefore: 6/23/2009 10:06 AM
+  NotAfter: 6/25/2022 10:06 AM
+  Subject: CN=Actalis Authentication CA G1, O=Actalis S.p.A./03358520967, L=Milano, C=IT
+  Serial: 01
+  c90989d8a12dd703abfd3c90a8017398efc55891
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  c90989d8a12dd703abfd3c90a8017398efc55891
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

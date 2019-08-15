@@ -1,0 +1,57 @@
+Issuer:
+    CN=SecureTrust CA
+    O=SecureTrust Corporation
+    C=US
+  Name Hash(sha1): 35988e16c384792d9890dbde698f8385ff8e32c8
+  Name Hash(md5): eb1e70cf1ead1152153e79ec90edaba4
+Subject:
+    CN=SecureTrust CA
+    O=SecureTrust Corporation
+    C=US
+  Name Hash(sha1): 35988e16c384792d9890dbde698f8385ff8e32c8
+  Name Hash(md5): eb1e70cf1ead1152153e79ec90edaba4
+Cert Serial Number: 0cf08e5c0816a5ad427ff0eb271859d0
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  NotBefore: 11/7/2006 3:31 PM
+  NotAfter: 12/31/2029 3:40 PM
+  Subject: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  Serial: 0cf08e5c0816a5ad427ff0eb271859d0
+  Template: CA
+  11ff34d9447d3e59d29296d2cf3b3504c3c68287
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  11ff34d9447d3e59d29296d2cf3b3504c3c68287
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Leaf certificate revocation check passed
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,59 @@
+Issuer:
+    CN=TM Applied Business Root Certificate
+    OU=TM Applied Business Certification Authority
+    O=TM
+    C=my
+  Name Hash(sha1): d2d570ee120c2e290a1c75c7dfcce24202c46763
+  Name Hash(md5): a4ca0e8d6c2cbbdf7fca18b184e1b69e
+Subject:
+    CN=TM Applied Business Root Certificate
+    OU=TM Applied Business Certification Authority
+    O=TM
+    C=my
+  Name Hash(sha1): d2d570ee120c2e290a1c75c7dfcce24202c46763
+  Name Hash(md5): a4ca0e8d6c2cbbdf7fca18b184e1b69e
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=109 dwErrorStatus=0
+  Issuer: CN=TM Applied Business Root Certificate, OU=TM Applied Business Certification Authority, O=TM, C=my
+  NotBefore: 10/10/2011 2:23 AM
+  NotAfter: 10/10/2031 2:53 AM
+  Subject: CN=TM Applied Business Root Certificate, OU=TM Applied Business Certification Authority, O=TM, C=my
+  Serial: 01
+  8c209f658e9b0ea7b7a4f739e7b89fc53fc55799
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  8c209f658e9b0ea7b7a4f739e7b89fc53fc55799
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+
+ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0x80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+
+CertUtil: -verify command completed successfully.

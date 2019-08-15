@@ -1,0 +1,60 @@
+Issuer:
+    CN=OpenTrust Root CA G3
+    O=OpenTrust
+    C=FR
+  Name Hash(sha1): 034b0f65a2136b9921c29eb33aa97cf50b162143
+  Name Hash(md5): 717c9f55680384f1df110f05ab66e3b1
+Subject:
+    CN=OpenTrust Root CA G3
+    O=OpenTrust
+    C=FR
+  Name Hash(sha1): 034b0f65a2136b9921c29eb33aa97cf50b162143
+  Name Hash(md5): 717c9f55680384f1df110f05ab66e3b1
+Cert Serial Number: 1120e6f84cfc24b0be0540acda831b34603f
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=OpenTrust Root CA G3, O=OpenTrust, C=FR
+  NotBefore: 5/25/2014 8:00 PM
+  NotAfter: 1/14/2038 8:00 PM
+  Subject: CN=OpenTrust Root CA G3, O=OpenTrust, C=FR
+  Serial: 1120e6f84cfc24b0be0540acda831b34603f
+  a68ada13d8de017c3f93d1bf5534bf56f364266e
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[4] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  a68ada13d8de017c3f93d1bf5534bf56f364266e
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

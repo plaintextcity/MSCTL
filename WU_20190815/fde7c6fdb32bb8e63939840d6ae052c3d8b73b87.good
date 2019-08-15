@@ -1,0 +1,54 @@
+Issuer:
+    CN=RCSC RootCA
+    O=VI Registru centras- i.k. 124110246
+    OU=RCSC
+    C=LT
+  Name Hash(sha1): 39b1406cc3fa73b7601327cf3dd5612afcf0c0d3
+  Name Hash(md5): 94b026932176a0aa02c8acc22001d53b
+Subject:
+    CN=RCSC RootCA
+    O=VI Registru centras- i.k. 124110246
+    OU=RCSC
+    C=LT
+  Name Hash(sha1): 39b1406cc3fa73b7601327cf3dd5612afcf0c0d3
+  Name Hash(md5): 94b026932176a0aa02c8acc22001d53b
+Cert Serial Number: 4f001ba124bdcb8848bebd3f2b62c7c5
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=RCSC RootCA, O=VI Registru centras- i.k. 124110246, OU=RCSC, C=LT
+  NotBefore: 5/23/2017 4:36 AM
+  NotAfter: 5/23/2044 4:36 AM
+  Subject: CN=RCSC RootCA, O=VI Registru centras- i.k. 124110246, OU=RCSC, C=LT
+  Serial: 4f001ba124bdcb8848bebd3f2b62c7c5
+  873bb7d8c352e06a0d843939e6b82bb3fdc6e7fd
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[1] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  873bb7d8c352e06a0d843939e6b82bb3fdc6e7fd
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

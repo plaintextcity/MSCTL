@@ -1,0 +1,48 @@
+Issuer:
+    CN=Microsoft Root Certificate Authority
+    DC=microsoft
+    DC=com
+  Name Hash(sha1): c35f66c9a07c78a3f82b876f15d832cbd21fdb33
+  Name Hash(md5): f0c402f0404ea9adbf25a03ddf2ca6fa
+Subject:
+    CN=Microsoft Root Certificate Authority
+    DC=microsoft
+    DC=com
+  Name Hash(sha1): c35f66c9a07c78a3f82b876f15d832cbd21fdb33
+  Name Hash(md5): f0c402f0404ea9adbf25a03ddf2ca6fa
+Cert Serial Number: 79ad16a14aa0a5ad4c7358f407132e65
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=13c dwErrorStatus=0
+  Issuer: CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com
+  NotBefore: 5/9/2001 7:19 PM
+  NotAfter: 5/9/2021 7:28 PM
+  Subject: CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com
+  Serial: 79ad16a14aa0a5ad4c7358f407132e65
+  72c0308014301e172c80c3407fac0060aeeed4cd
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  72c0308014301e172c80c3407fac0060aeeed4cd
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies: All
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,65 @@
+Issuer:
+    CN=Thailand National Root Certification Authority - G1
+    OU=Thailand National Root Certification Authority
+    O=Electronic Transactions Development Agency (Public Organization)
+    C=TH
+  Name Hash(sha1): 80a66b2c1dbc208b003b4d532a543b08e64424bb
+  Name Hash(md5): ccad4b1aa1517b132ab73fc3fca1a4b8
+Subject:
+    CN=Thailand National Root Certification Authority - G1
+    OU=Thailand National Root Certification Authority
+    O=Electronic Transactions Development Agency (Public Organization)
+    C=TH
+  Name Hash(sha1): 80a66b2c1dbc208b003b4d532a543b08e64424bb
+  Name Hash(md5): ccad4b1aa1517b132ab73fc3fca1a4b8
+Cert Serial Number: 5152c58c
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+ChainContext.dwRevocationFreshnessTime: 0s
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+SimpleChain.dwRevocationFreshnessTime: 0s
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=4000024
+  Issuer: CN=Thailand National Root Certification Authority - G1, OU=Thailand National Root Certification Authority, O=Electronic Transactions Development Agency (Public Organization), C=TH
+  NotBefore: 3/27/2013 5:40 AM
+  NotAfter: 3/27/2036 6:10 AM
+  Subject: CN=Thailand National Root Certification Authority - G1, OU=Thailand National Root Certification Authority, O=Electronic Transactions Development Agency (Public Organization), C=TH
+  Serial: 5152c58c
+  32e1dffb1bfede116f20b3e9de4d813ffbdcf266
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_REVOKED (0x4)
+  Element.dwErrorStatus = CERT_TRUST_IS_UNTRUSTED_ROOT (0x20)
+  Element.dwErrorStatus = CERT_TRUST_IS_EXPLICIT_DISTRUST (0x4000000)
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  32e1dffb1bfede116f20b3e9de4d813ffbdcf266
+  Issuer: CN=Thailand National Root Certification Authority - G1, OU=Thailand National Root Certification Authority, O=Electronic Transactions Development Agency (Public Organization), C=TH
+  NotBefore: 3/27/2013 5:40 AM
+  NotAfter: 3/27/2036 6:10 AM
+  Subject: CN=Thailand National Root Certification Authority - G1, OU=Thailand National Root Certification Authority, O=Electronic Transactions Development Agency (Public Organization), C=TH
+  Serial: 5152c58c
+  32e1dffb1bfede116f20b3e9de4d813ffbdcf266
+The certificate is revoked. 0x80092010 (-2146885616 CRYPT_E_REVOKED)
+------------------------------------
+Certificate is REVOKED
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

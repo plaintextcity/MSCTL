@@ -1,0 +1,58 @@
+Issuer:
+    CN=Amazon Root CA 1
+    O=Amazon
+    C=US
+  Name Hash(sha1): 4f59a39453cfb9559e7f6bd8c54da53da642b714
+  Name Hash(md5): 99c508fd54cbc396cc3256bb87829ae0
+Subject:
+    CN=Amazon Root CA 1
+    O=Amazon
+    C=US
+  Name Hash(sha1): 4f59a39453cfb9559e7f6bd8c54da53da642b714
+  Name Hash(md5): 99c508fd54cbc396cc3256bb87829ae0
+Cert Serial Number: 066c9fcf99bf8c0a39e2f0788a43e696365bca
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Amazon Root CA 1, O=Amazon, C=US
+  NotBefore: 5/25/2015 8:00 PM
+  NotAfter: 1/16/2038 8:00 PM
+  Subject: CN=Amazon Root CA 1, O=Amazon, C=US
+  Serial: 066c9fcf99bf8c0a39e2f0788a43e696365bca
+  16de6e6accc1fd596e1c0f9137fc5eec65f9a78d
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[4] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  16de6e6accc1fd596e1c0f9137fc5eec65f9a78d
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

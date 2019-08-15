@@ -1,0 +1,57 @@
+Issuer:
+    OU=Saudi National Root CA
+    O=National Center for Digital Certification
+    C=SA
+  Name Hash(sha1): 1e86ffd694e52dfa4c5696656c1bc24e3183ba1f
+  Name Hash(md5): 403fdd0dff1adf49d4abd6e9140b7812
+Subject:
+    OU=Saudi National Root CA
+    O=National Center for Digital Certification
+    C=SA
+  Name Hash(sha1): 1e86ffd694e52dfa4c5696656c1bc24e3183ba1f
+  Name Hash(md5): 403fdd0dff1adf49d4abd6e9140b7812
+Cert Serial Number: 49b63518
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: OU=Saudi National Root CA, O=National Center for Digital Certification, C=SA
+  NotBefore: 4/29/2012 2:55 AM
+  NotAfter: 11/29/2029 3:25 AM
+  Subject: OU=Saudi National Root CA, O=National Center for Digital Certification, C=SA
+  Serial: 49b63518
+  792ce6f4523ab0b9ae62ae7be8cff87d9b505183
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  792ce6f4523ab0b9ae62ae7be8cff87d9b505183
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+
+ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0x80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+
+CertUtil: -verify command completed successfully.

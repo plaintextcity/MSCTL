@@ -1,0 +1,54 @@
+Issuer:
+    CN=SZAFIR ROOT CA
+    O=Krajowa Izba Rozliczeniowa S.A.
+    C=PL
+  Name Hash(sha1): 2140b09b573efde683e1e15560f71155b4525b19
+  Name Hash(md5): 7a8283d62a223af2bd58489510109b78
+Subject:
+    CN=SZAFIR ROOT CA
+    O=Krajowa Izba Rozliczeniowa S.A.
+    C=PL
+  Name Hash(sha1): 2140b09b573efde683e1e15560f71155b4525b19
+  Name Hash(md5): 7a8283d62a223af2bd58489510109b78
+Cert Serial Number: e609fe7aea00688ce024b4ed201b1fef52b444d1
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=SZAFIR ROOT CA, O=Krajowa Izba Rozliczeniowa S.A., C=PL
+  NotBefore: 12/6/2011 7:10 AM
+  NotAfter: 12/6/2031 7:10 AM
+  Subject: CN=SZAFIR ROOT CA, O=Krajowa Izba Rozliczeniowa S.A., C=PL
+  Serial: e609fe7aea00688ce024b4ed201b1fef52b444d1
+  b75d301ea09cb53be22686836798f4bccbfbeed3
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b75d301ea09cb53be22686836798f4bccbfbeed3
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

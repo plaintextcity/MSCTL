@@ -1,0 +1,59 @@
+Issuer:
+    OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.
+    OU=VeriSign Time Stamping Service Root
+    OU=VeriSign, Inc.
+    O=VeriSign Trust Network
+  Name Hash(sha1): 7cac367b5c754ce2ff5d95e025fdf6879fd6bfa1
+  Name Hash(md5): 4ff7db56d0fd88a19fe3ba8bc00e0662
+Subject:
+    OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.
+    OU=VeriSign Time Stamping Service Root
+    OU=VeriSign, Inc.
+    O=VeriSign Trust Network
+  Name Hash(sha1): 7cac367b5c754ce2ff5d95e025fdf6879fd6bfa1
+  Name Hash(md5): 4ff7db56d0fd88a19fe3ba8bc00e0662
+Cert Serial Number: 4a19d2388c82591ca55d735f155ddca3
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=11
+  Issuer: OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network
+  NotBefore: 5/11/1997 8:00 PM
+  NotAfter: 1/7/2004 7:59 PM
+  Subject: OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network
+  Serial: 4a19d2388c82591ca55d735f155ddca3
+  25ddc87649751a862faa5bfd030209c3fcc1f718
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  25ddc87649751a862faa5bfd030209c3fcc1f718
+  Issuer: OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network
+  NotBefore: 5/11/1997 8:00 PM
+  NotAfter: 1/7/2004 7:59 PM
+  Subject: OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.", O=VeriSign Trust Network
+  Serial: 4a19d2388c82591ca55d735f155ddca3
+  25ddc87649751a862faa5bfd030209c3fcc1f718
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

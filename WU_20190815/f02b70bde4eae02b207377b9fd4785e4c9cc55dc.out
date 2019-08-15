@@ -1,0 +1,54 @@
+Issuer:
+    CN=CFCA Identity CA
+    O=China Financial Certification Authority
+    C=CN
+  Name Hash(sha1): 186fa51f9dfab5b11c650f27eef6bca8f2a1d514
+  Name Hash(md5): c697125e13fbe0b9b9fd7c22d65cad09
+Subject:
+    CN=CFCA Identity CA
+    O=China Financial Certification Authority
+    C=CN
+  Name Hash(sha1): 186fa51f9dfab5b11c650f27eef6bca8f2a1d514
+  Name Hash(md5): c697125e13fbe0b9b9fd7c22d65cad09
+Cert Serial Number: 2c703e54e90fd99820ccc6d9f5463f35
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=10
+  Issuer: CN=CFCA Identity CA, O=China Financial Certification Authority, C=CN
+  NotBefore: 6/29/2015 9:21 PM
+  NotAfter: 6/29/2040 9:21 PM
+  Subject: CN=CFCA Identity CA, O=China Financial Certification Authority, C=CN
+  Serial: 2c703e54e90fd99820ccc6d9f5463f35
+  dc55ccc9e48547fdb97773202be0eae4bd702bf0
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  dc55ccc9e48547fdb97773202be0eae4bd702bf0
+  Issuer: CN=CFCA Identity CA, O=China Financial Certification Authority, C=CN
+  NotBefore: 6/29/2015 9:21 PM
+  NotAfter: 6/29/2040 9:21 PM
+  Subject: CN=CFCA Identity CA, O=China Financial Certification Authority, C=CN
+  Serial: 2c703e54e90fd99820ccc6d9f5463f35
+  dc55ccc9e48547fdb97773202be0eae4bd702bf0
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

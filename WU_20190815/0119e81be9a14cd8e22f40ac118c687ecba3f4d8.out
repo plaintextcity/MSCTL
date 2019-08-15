@@ -1,0 +1,58 @@
+Issuer:
+    CN=Microsoft Time Stamp Root Certificate Authority 2014
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): e1607171d7c4d96166b3671c5d5342610809fc6e
+  Name Hash(md5): 53308366b78c6bdbb2b1b524da63c4ed
+Subject:
+    CN=Microsoft Time Stamp Root Certificate Authority 2014
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): e1607171d7c4d96166b3671c5d5342610809fc6e
+  Name Hash(md5): 53308366b78c6bdbb2b1b524da63c4ed
+Cert Serial Number: 2fd67a432293329045e953343ee27466
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  NotBefore: 10/22/2014 6:08 PM
+  NotAfter: 10/22/2039 6:15 PM
+  Subject: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  Serial: 2fd67a432293329045e953343ee27466
+  d8f4a3cb7e688c11ac402fe2d84ca1e91be81901
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  d8f4a3cb7e688c11ac402fe2d84ca1e91be81901
+  Issuer: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  NotBefore: 10/22/2014 6:08 PM
+  NotAfter: 10/22/2039 6:15 PM
+  Subject: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  Serial: 2fd67a432293329045e953343ee27466
+  d8f4a3cb7e688c11ac402fe2d84ca1e91be81901
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

@@ -1,0 +1,52 @@
+Issuer:
+    C=NL
+    O=Digidentity B.V.
+    CN=Digidentity Services Root CA
+  Name Hash(sha1): c1f5cdfc62cb626fa24b020205651a5da7bbb23e
+  Name Hash(md5): f70cb897d8f8abca1330c12325ab59fd
+Subject:
+    C=NL
+    O=Digidentity B.V.
+    CN=Digidentity Services Root CA
+  Name Hash(sha1): c1f5cdfc62cb626fa24b020205651a5da7bbb23e
+  Name Hash(md5): f70cb897d8f8abca1330c12325ab59fd
+Cert Serial Number: 1281b918f3793a4293ce915861e4ed5c
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: C=NL, O=Digidentity B.V., CN=Digidentity Services Root CA
+  NotBefore: 7/10/2018 6:05 AM
+  NotAfter: 7/4/2043 6:05 AM
+  Subject: C=NL, O=Digidentity B.V., CN=Digidentity Services Root CA
+  Serial: 1281b918f3793a4293ce915861e4ed5c
+  ed3e6a5e77ed4f6eb9ca60d51e1c31ee77b23f7b
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  ed3e6a5e77ed4f6eb9ca60d51e1c31ee77b23f7b
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

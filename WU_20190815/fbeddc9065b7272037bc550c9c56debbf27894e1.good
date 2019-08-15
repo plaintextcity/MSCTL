@@ -1,0 +1,56 @@
+Issuer:
+    CN=Certification Authority of WoSign G2
+    O=WoSign CA Limited
+    C=CN
+  Name Hash(sha1): 32dcb9c89c8419af17f4a479093d2820a65279e4
+  Name Hash(md5): 0fa92b26caeafa47402786392fcf2984
+Subject:
+    CN=Certification Authority of WoSign G2
+    O=WoSign CA Limited
+    C=CN
+  Name Hash(sha1): 32dcb9c89c8419af17f4a479093d2820a65279e4
+  Name Hash(md5): 0fa92b26caeafa47402786392fcf2984
+Cert Serial Number: 6b25da8a889d7cbc0f05b3b17a614544
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Certification Authority of WoSign G2, O=WoSign CA Limited, C=CN
+  NotBefore: 11/7/2014 8:58 PM
+  NotAfter: 11/7/2044 8:58 PM
+  Subject: CN=Certification Authority of WoSign G2, O=WoSign CA Limited, C=CN
+  Serial: 6b25da8a889d7cbc0f05b3b17a614544
+  e19478f2bbde569c0c55bc372027b76590dcedfb
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  e19478f2bbde569c0c55bc372027b76590dcedfb
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

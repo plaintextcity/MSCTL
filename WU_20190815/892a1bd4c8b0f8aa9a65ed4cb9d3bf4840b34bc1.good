@@ -1,0 +1,54 @@
+Issuer:
+    CN=ATHEX Root CA G2
+    O=ATHENS STOCK EXCHANGE
+    C=GR
+  Name Hash(sha1): c4f860c1a4cb89bde2463a0e68efdc78731ddd45
+  Name Hash(md5): 4214e6d0df15440ea21318bf21b253dd
+Subject:
+    CN=ATHEX Root CA G2
+    O=ATHENS STOCK EXCHANGE
+    C=GR
+  Name Hash(sha1): c4f860c1a4cb89bde2463a0e68efdc78731ddd45
+  Name Hash(md5): 4214e6d0df15440ea21318bf21b253dd
+Cert Serial Number: 3ecf
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=ATHEX Root CA G2, O=ATHENS STOCK EXCHANGE, C=GR
+  NotBefore: 3/15/2016 7:14 AM
+  NotAfter: 3/14/2036 6:00 PM
+  Subject: CN=ATHEX Root CA G2, O=ATHENS STOCK EXCHANGE, C=GR
+  Serial: 3ecf
+  c14bb34048bfd3b94ced659aaaf8b0c8d41b2a89
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[3] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  c14bb34048bfd3b94ced659aaaf8b0c8d41b2a89
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,68 @@
+Issuer:
+    CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado
+    OU=Tanusitvanykiadok
+    O=NetLock Halozatbiztonsagi Kft.
+    L=Budapest
+    S=Hungary
+    C=HU
+  Name Hash(sha1): 2cc36f05593a7663a296e764e26fbe4887a3c2d9
+  Name Hash(md5): 4573d6ad0de444cb4a4fa04288b87a37
+Subject:
+    CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado
+    OU=Tanusitvanykiadok
+    O=NetLock Halozatbiztonsagi Kft.
+    L=Budapest
+    S=Hungary
+    C=HU
+  Name Hash(sha1): 2cc36f05593a7663a296e764e26fbe4887a3c2d9
+  Name Hash(md5): 4573d6ad0de444cb4a4fa04288b87a37
+Cert Serial Number: 0103
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=1
+  Issuer: CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado, OU=Tanusitvanykiadok, O=NetLock Halozatbiztonsagi Kft., L=Budapest, S=Hungary, C=HU
+  NotBefore: 2/24/1999 7:14 PM
+  NotAfter: 2/19/2019 7:14 PM
+  Subject: CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado, OU=Tanusitvanykiadok, O=NetLock Halozatbiztonsagi Kft., L=Budapest, S=Hungary, C=HU
+  Serial: 0103
+  c678619f746a3b487a1f5f01ce25fd53655fedac
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[4] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  c678619f746a3b487a1f5f01ce25fd53655fedac
+  Issuer: CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado, OU=Tanusitvanykiadok, O=NetLock Halozatbiztonsagi Kft., L=Budapest, S=Hungary, C=HU
+  NotBefore: 2/24/1999 7:14 PM
+  NotAfter: 2/19/2019 7:14 PM
+  Subject: CN=NetLock Kozjegyzoi (Class A) Tanusitvanykiado, OU=Tanusitvanykiadok, O=NetLock Halozatbiztonsagi Kft., L=Budapest, S=Hungary, C=HU
+  Serial: 0103
+  c678619f746a3b487a1f5f01ce25fd53655fedac
+A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file. 0x800b0101 (-2146762495 CERT_E_EXPIRED)
+------------------------------------
+Expired certificate
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

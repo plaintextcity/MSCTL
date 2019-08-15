@@ -1,0 +1,48 @@
+Issuer:
+    CN=ISRG Root X1
+    O=Internet Security Research Group
+    C=US
+  Name Hash(sha1): 281aea4e6a11200e3949b766237385489c2e8792
+  Name Hash(md5): 73b6876195f5d18e048510422aef04e3
+Subject:
+    CN=ISRG Root X1
+    O=Internet Security Research Group
+    C=US
+  Name Hash(sha1): 281aea4e6a11200e3949b766237385489c2e8792
+  Name Hash(md5): 73b6876195f5d18e048510422aef04e3
+Cert Serial Number: 8210cfb0d240e3594463e0bb63828b00
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  NotBefore: 6/4/2015 7:04 AM
+  NotAfter: 6/4/2035 7:04 AM
+  Subject: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  Serial: 8210cfb0d240e3594463e0bb63828b00
+  e8a529439d03cb3536251df2316a07a1792abdca
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  e8a529439d03cb3536251df2316a07a1792abdca
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

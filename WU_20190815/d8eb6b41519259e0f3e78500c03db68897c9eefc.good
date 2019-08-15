@@ -1,0 +1,58 @@
+Issuer:
+    CN=Staat der Nederlanden Root CA - G3
+    O=Staat der Nederlanden
+    C=NL
+  Name Hash(sha1): 620d8f748c2f62c49334dc4bd96e79f2ccb69155
+  Name Hash(md5): a70e255a99d4b3d6717de133fde4991c
+Subject:
+    CN=Staat der Nederlanden Root CA - G3
+    O=Staat der Nederlanden
+    C=NL
+  Name Hash(sha1): 620d8f748c2f62c49334dc4bd96e79f2ccb69155
+  Name Hash(md5): a70e255a99d4b3d6717de133fde4991c
+Cert Serial Number: 98a239
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Staat der Nederlanden Root CA - G3, O=Staat der Nederlanden, C=NL
+  NotBefore: 11/14/2013 7:28 AM
+  NotAfter: 11/13/2028 7:00 PM
+  Subject: CN=Staat der Nederlanden Root CA - G3, O=Staat der Nederlanden, C=NL
+  Serial: 98a239
+  fceec99788b63dc00085e7f3e0599251416bebd8
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[4] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[5] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  fceec99788b63dc00085e7f3e0599251416bebd8
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

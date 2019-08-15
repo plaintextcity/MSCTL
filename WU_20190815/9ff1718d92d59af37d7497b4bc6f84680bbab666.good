@@ -1,0 +1,56 @@
+Issuer:
+    CN=Hellenic Academic and Research Institutions ECC RootCA 2015
+    O=Hellenic Academic and Research Institutions Cert. Authority
+    L=Athens
+    C=GR
+  Name Hash(sha1): e24e78259c056c7f870c7b62f5b043d96fab7725
+  Name Hash(md5): c3c879945ef9765d1d366ab0f710c8c6
+Subject:
+    CN=Hellenic Academic and Research Institutions ECC RootCA 2015
+    O=Hellenic Academic and Research Institutions Cert. Authority
+    L=Athens
+    C=GR
+  Name Hash(sha1): e24e78259c056c7f870c7b62f5b043d96fab7725
+  Name Hash(md5): c3c879945ef9765d1d366ab0f710c8c6
+Cert Serial Number: 00
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+  NotBefore: 7/7/2015 6:37 AM
+  NotAfter: 6/30/2040 6:37 AM
+  Subject: CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR
+  Serial: 00
+  66b6ba0b68846fbcb497747df39ad5928d71f19f
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  66b6ba0b68846fbcb497747df39ad5928d71f19f
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

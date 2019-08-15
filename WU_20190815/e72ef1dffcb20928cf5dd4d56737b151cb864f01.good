@@ -1,0 +1,56 @@
+Issuer:
+    CN=emSign Root CA - C1
+    O=eMudhra Inc
+    OU=emSign PKI
+    C=US
+  Name Hash(sha1): 262175b10d1adadd3525515deb67dda91edf2154
+  Name Hash(md5): 013affdb74784b5ae81a4948fd83c2b4
+Subject:
+    CN=emSign Root CA - C1
+    O=eMudhra Inc
+    OU=emSign PKI
+    C=US
+  Name Hash(sha1): 262175b10d1adadd3525515deb67dda91edf2154
+  Name Hash(md5): 013affdb74784b5ae81a4948fd83c2b4
+Cert Serial Number: aecf00bac4cf32f843b2
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=emSign Root CA - C1, O=eMudhra Inc, OU=emSign PKI, C=US
+  NotBefore: 2/18/2018 2:30 PM
+  NotAfter: 2/18/2043 2:30 PM
+  Subject: CN=emSign Root CA - C1, O=eMudhra Inc, OU=emSign PKI, C=US
+  Serial: aecf00bac4cf32f843b2
+  014f86cb51b13767d5d45dcf2809b2fcdff12ee7
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[1] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  014f86cb51b13767d5d45dcf2809b2fcdff12ee7
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

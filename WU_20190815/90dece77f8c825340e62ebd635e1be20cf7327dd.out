@@ -1,0 +1,62 @@
+Issuer:
+    OU=I.CA - Provider of Certification Services
+    O=První certifikacní autorita, a.s.
+    CN=I.CA - Standard Certification Authority, 09/2009
+    C=CZ
+  Name Hash(sha1): b4bb9b5f4d0e573b0cd65ecd7deda75550f3bd65
+  Name Hash(md5): c98bcb9af6c89860421fbddd595beaa9
+Subject:
+    OU=I.CA - Provider of Certification Services
+    O=První certifikacní autorita, a.s.
+    CN=I.CA - Standard Certification Authority, 09/2009
+    C=CZ
+  Name Hash(sha1): b4bb9b5f4d0e573b0cd65ecd7deda75550f3bd65
+  Name Hash(md5): c98bcb9af6c89860421fbddd595beaa9
+Cert Serial Number: 16e360
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: OU=I.CA - Provider of Certification Services, O="První certifikacní autorita, a.s.", CN="I.CA - Standard Certification Authority, 09/2009", C=CZ
+  NotBefore: 8/31/2009 8:00 PM
+  NotAfter: 8/31/2019 8:00 PM
+  Subject: OU=I.CA - Provider of Certification Services, O="První certifikacní autorita, a.s.", CN="I.CA - Standard Certification Authority, 09/2009", C=CZ
+  Serial: 16e360
+  dd2773cf20bee135d6eb620e3425c8f877cede90
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[4] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[5] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[6] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  dd2773cf20bee135d6eb620e3425c8f877cede90
+  Issuer: OU=I.CA - Provider of Certification Services, O="První certifikacní autorita, a.s.", CN="I.CA - Standard Certification Authority, 09/2009", C=CZ
+  NotBefore: 8/31/2009 8:00 PM
+  NotAfter: 8/31/2019 8:00 PM
+  Subject: OU=I.CA - Provider of Certification Services, O="První certifikacní autorita, a.s.", CN="I.CA - Standard Certification Authority, 09/2009", C=CZ
+  Serial: 16e360
+  dd2773cf20bee135d6eb620e3425c8f877cede90
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

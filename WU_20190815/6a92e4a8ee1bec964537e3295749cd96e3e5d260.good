@@ -1,0 +1,50 @@
+Issuer:
+    CN=HiPKI Root CA - G1
+    O=Chunghwa Telecom Co., Ltd.
+    C=TW
+  Name Hash(sha1): 6f43c3357b52a21924146518f9cb7d4dbe05a82f
+  Name Hash(md5): 7ab5a1538fe6ec8c8c3d10cd40159e5c
+Subject:
+    CN=HiPKI Root CA - G1
+    O=Chunghwa Telecom Co., Ltd.
+    C=TW
+  Name Hash(sha1): 6f43c3357b52a21924146518f9cb7d4dbe05a82f
+  Name Hash(md5): 7ab5a1538fe6ec8c8c3d10cd40159e5c
+Cert Serial Number: 2dddacce629794a143e8b0cd766a5e60
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=HiPKI Root CA - G1, O="Chunghwa Telecom Co., Ltd.", C=TW
+  NotBefore: 2/22/2019 5:46 AM
+  NotAfter: 12/31/2037 11:59 AM
+  Subject: CN=HiPKI Root CA - G1, O="Chunghwa Telecom Co., Ltd.", C=TW
+  Serial: 2dddacce629794a143e8b0cd766a5e60
+  60d2e5e396cd495729e3374596ec1beea8e4926a
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  60d2e5e396cd495729e3374596ec1beea8e4926a
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

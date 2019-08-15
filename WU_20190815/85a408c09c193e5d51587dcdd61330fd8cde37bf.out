@@ -1,0 +1,60 @@
+Issuer:
+    CN=Deutsche Telekom Root CA 2
+    OU=T-TeleSec Trust Center
+    O=Deutsche Telekom AG
+    C=DE
+  Name Hash(sha1): 01cb3044531fa8618a68d3c60596ab0555866b09
+  Name Hash(md5): 48c1184e28125121aeeef1a32ce0d467
+Subject:
+    CN=Deutsche Telekom Root CA 2
+    OU=T-TeleSec Trust Center
+    O=Deutsche Telekom AG
+    C=DE
+  Name Hash(sha1): 01cb3044531fa8618a68d3c60596ab0555866b09
+  Name Hash(md5): 48c1184e28125121aeeef1a32ce0d467
+Cert Serial Number: 26
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=1
+  Issuer: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  NotBefore: 7/9/1999 8:11 AM
+  NotAfter: 7/9/2019 7:59 PM
+  Subject: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Serial: 26
+  bf37de8cfd3013d6cd7d58515d3e199cc008a485
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+  Application[0] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[1] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  bf37de8cfd3013d6cd7d58515d3e199cc008a485
+  Issuer: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  NotBefore: 7/9/1999 8:11 AM
+  NotAfter: 7/9/2019 7:59 PM
+  Subject: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Serial: 26
+  bf37de8cfd3013d6cd7d58515d3e199cc008a485
+A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file. 0x800b0101 (-2146762495 CERT_E_EXPIRED)
+------------------------------------
+Expired certificate
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

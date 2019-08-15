@@ -1,0 +1,55 @@
+Issuer:
+    CN=D-TRUST Root CA 3 2013
+    O=D-Trust GmbH
+    C=DE
+  Name Hash(sha1): ca563105d62403a9f135919fbc21e2d4d6669ad8
+  Name Hash(md5): 607c12c6b271876fd2c4c09cf22b869e
+Subject:
+    CN=D-TRUST Root CA 3 2013
+    O=D-Trust GmbH
+    C=DE
+  Name Hash(sha1): ca563105d62403a9f135919fbc21e2d4d6669ad8
+  Name Hash(md5): 607c12c6b271876fd2c4c09cf22b869e
+Cert Serial Number: 0fddac
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=D-TRUST Root CA 3 2013, O=D-Trust GmbH, C=DE
+  NotBefore: 9/20/2013 4:25 AM
+  NotAfter: 9/20/2028 4:25 AM
+  Subject: CN=D-TRUST Root CA 3 2013, O=D-Trust GmbH, C=DE
+  Serial: 0fddac
+  97ef6fdf78c3e8f63fcd08995f51aed4e7cc7c6c
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  97ef6fdf78c3e8f63fcd08995f51aed4e7cc7c6c
+  Issuer: CN=D-TRUST Root CA 3 2013, O=D-Trust GmbH, C=DE
+  NotBefore: 9/20/2013 4:25 AM
+  NotAfter: 9/20/2028 4:25 AM
+  Subject: CN=D-TRUST Root CA 3 2013, O=D-Trust GmbH, C=DE
+  Serial: 0fddac
+  97ef6fdf78c3e8f63fcd08995f51aed4e7cc7c6c
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

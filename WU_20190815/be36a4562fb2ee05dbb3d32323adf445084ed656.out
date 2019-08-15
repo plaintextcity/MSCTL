@@ -1,0 +1,60 @@
+Issuer:
+    CN=Thawte Timestamping CA
+    OU=Thawte Certification
+    O=Thawte
+    L=Durbanville
+    S=Western Cape
+    C=ZA
+  Name Hash(sha1): 09d5304b06b43d3a73c75cf55a59bf3b33190d96
+  Name Hash(md5): 6454a4aa36f9b5cc8338e5a67fabff17
+Subject:
+    CN=Thawte Timestamping CA
+    OU=Thawte Certification
+    O=Thawte
+    L=Durbanville
+    S=Western Cape
+    C=ZA
+  Name Hash(sha1): 09d5304b06b43d3a73c75cf55a59bf3b33190d96
+  Name Hash(md5): 6454a4aa36f9b5cc8338e5a67fabff17
+Cert Serial Number: 00
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+  NotBefore: 12/31/1996 8:00 PM
+  NotAfter: 12/31/2020 7:59 PM
+  Subject: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+  Serial: 00
+  56d64e0845f4ad2323d3b3db05eeb22f56a436be
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  56d64e0845f4ad2323d3b3db05eeb22f56a436be
+  Issuer: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+  NotBefore: 12/31/1996 8:00 PM
+  NotAfter: 12/31/2020 7:59 PM
+  Subject: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+  Serial: 00
+  56d64e0845f4ad2323d3b3db05eeb22f56a436be
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

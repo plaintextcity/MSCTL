@@ -1,0 +1,56 @@
+Issuer:
+    CN=Certum Trusted Network CA 2
+    OU=Certum Certification Authority
+    O=Unizeto Technologies S.A.
+    C=PL
+  Name Hash(sha1): 481f557ae1206403ecc941543a54504072f2c1df
+  Name Hash(md5): 04321ccbc528a397f1620cb39dfc6d35
+Subject:
+    CN=Certum Trusted Network CA 2
+    OU=Certum Certification Authority
+    O=Unizeto Technologies S.A.
+    C=PL
+  Name Hash(sha1): 481f557ae1206403ecc941543a54504072f2c1df
+  Name Hash(md5): 04321ccbc528a397f1620cb39dfc6d35
+Cert Serial Number: 21d6d04a4f250fc93237fcaa5e128de9
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Certum Trusted Network CA 2, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  NotBefore: 10/6/2011 4:39 AM
+  NotAfter: 10/6/2046 4:39 AM
+  Subject: CN=Certum Trusted Network CA 2, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  Serial: 21d6d04a4f250fc93237fcaa5e128de9
+  9230dcd3cf2676faf510afe8054cbf2b3e48ddd3
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  9230dcd3cf2676faf510afe8054cbf2b3e48ddd3
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

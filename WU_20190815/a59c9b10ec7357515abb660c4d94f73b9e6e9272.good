@@ -1,0 +1,60 @@
+Issuer:
+    CN=Certipost E-Trust Primary Normalised CA
+    O=Certipost s.a./n.v.
+    C=BE
+  Name Hash(sha1): 354f45ac1149ac9222224ebee3e45ff054ca3af9
+  Name Hash(md5): e24c12fe6807bf1d3c281584e9566043
+Subject:
+    CN=Certipost E-Trust Primary Normalised CA
+    O=Certipost s.a./n.v.
+    C=BE
+  Name Hash(sha1): 354f45ac1149ac9222224ebee3e45ff054ca3af9
+  Name Hash(md5): e24c12fe6807bf1d3c281584e9566043
+Cert Serial Number: 040000000001055264c761
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Certipost E-Trust Primary Normalised CA, O=Certipost s.a./n.v., C=BE
+  NotBefore: 7/26/2005 6:00 AM
+  NotAfter: 7/26/2020 6:00 AM
+  Subject: CN=Certipost E-Trust Primary Normalised CA, O=Certipost s.a./n.v., C=BE
+  Serial: 040000000001055264c761
+  72926e9e3bf7944d0c66bb5a515773ec109b9ca5
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 0.3.2062.7.1.0.1.2.0 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  72926e9e3bf7944d0c66bb5a515773ec109b9ca5
+------------------------------------
+Verified Issuance Policies:
+    0.3.2062.7.1.0.1.2.0
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

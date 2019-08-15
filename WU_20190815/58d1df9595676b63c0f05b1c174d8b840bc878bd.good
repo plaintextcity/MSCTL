@@ -1,0 +1,58 @@
+Issuer:
+    CN=TrustCor ECA-1
+    OU=TrustCor Certificate Authority
+    O=TrustCor Systems S. de R.L.
+    L=Panama City
+    S=Panama
+    C=PA
+  Name Hash(sha1): fb9bc83cf8442e18710633a9dc25f72aad6951b6
+  Name Hash(md5): 4e70c1c2b6228a1e1b5e4c3682a32026
+Subject:
+    CN=TrustCor ECA-1
+    OU=TrustCor Certificate Authority
+    O=TrustCor Systems S. de R.L.
+    L=Panama City
+    S=Panama
+    C=PA
+  Name Hash(sha1): fb9bc83cf8442e18710633a9dc25f72aad6951b6
+  Name Hash(md5): 4e70c1c2b6228a1e1b5e4c3682a32026
+Cert Serial Number: 84822c5f1c62d040
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=TrustCor ECA-1, OU=TrustCor Certificate Authority, O=TrustCor Systems S. de R.L., L=Panama City, S=Panama, C=PA
+  NotBefore: 2/4/2016 8:32 AM
+  NotAfter: 12/31/2029 1:28 PM
+  Subject: CN=TrustCor ECA-1, OU=TrustCor Certificate Authority, O=TrustCor Systems S. de R.L., L=Panama City, S=Panama, C=PA
+  Serial: 84822c5f1c62d040
+  bd78c80b848b4d171c5bf0c0636b679595dfd158
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.1 Server Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  bd78c80b848b4d171c5bf0c0636b679595dfd158
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.1 Server Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

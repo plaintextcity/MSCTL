@@ -1,0 +1,60 @@
+Issuer:
+    CN=QuoVadis Root CA 3
+    O=QuoVadis Limited
+    C=BM
+  Name Hash(sha1): 6753c126afe1bdd9967341d686abfeb942a8855c
+  Name Hash(md5): 2a5139939a14636d53076a82dd975c91
+Subject:
+    CN=QuoVadis Root CA 3
+    O=QuoVadis Limited
+    C=BM
+  Name Hash(sha1): 6753c126afe1bdd9967341d686abfeb942a8855c
+  Name Hash(md5): 2a5139939a14636d53076a82dd975c91
+Cert Serial Number: 05c6
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=109 dwErrorStatus=0
+  Issuer: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  NotBefore: 11/24/2006 3:11 PM
+  NotAfter: 11/24/2031 3:06 PM
+  Subject: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  Serial: 05c6
+  855175822d3afdbec002aedd1d9574d8f714491f
+  Element.dwInfoStatus = CERT_TRUST_HAS_EXACT_MATCH_ISSUER (0x1)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Issuance[0] = 1.3.6.1.4.1.8024.0.3 
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  855175822d3afdbec002aedd1d9574d8f714491f
+------------------------------------
+Verified Issuance Policies:
+    1.3.6.1.4.1.8024.0.3
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.5.5.7.3.9 OCSP Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

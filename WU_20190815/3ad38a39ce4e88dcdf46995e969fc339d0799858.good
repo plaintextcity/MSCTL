@@ -1,0 +1,55 @@
+Issuer:
+    CN=Microsoft EV RSA Root Certificate Authority 2017
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): 2c6ba07fdfc64bd72063f103db0d3b6711f6a63f
+  Name Hash(md5): be29d8b34a52be83abd998bfca343420
+Subject:
+    CN=Microsoft EV RSA Root Certificate Authority 2017
+    O=Microsoft Corporation
+    L=Redmond
+    S=Washington
+    C=US
+  Name Hash(sha1): 2c6ba07fdfc64bd72063f103db0d3b6711f6a63f
+  Name Hash(md5): be29d8b34a52be83abd998bfca343420
+Cert Serial Number: 19fceb6df7cf57844184bdd9e0228e98
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=11c dwErrorStatus=0
+  Issuer: CN=Microsoft EV RSA Root Certificate Authority 2017, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  NotBefore: 7/26/2017 5:41 PM
+  NotAfter: 7/26/2042 5:47 PM
+  Subject: CN=Microsoft EV RSA Root Certificate Authority 2017, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  Serial: 19fceb6df7cf57844184bdd9e0228e98
+  589879d039c39f965e9946dfdc884ece398ad33a
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  589879d039c39f965e9946dfdc884ece398ad33a
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

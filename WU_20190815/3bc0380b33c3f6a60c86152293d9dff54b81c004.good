@@ -1,0 +1,58 @@
+Issuer:
+    OU=Trustis FPS Root CA
+    O=Trustis Limited
+    C=GB
+  Name Hash(sha1): 366f375dc9d12735e101189f6c18ed41eb58a2f8
+  Name Hash(md5): 4c221cc591efc309ff4c5681d9f95b51
+Subject:
+    OU=Trustis FPS Root CA
+    O=Trustis Limited
+    C=GB
+  Name Hash(sha1): 366f375dc9d12735e101189f6c18ed41eb58a2f8
+  Name Hash(md5): 4c221cc591efc309ff4c5681d9f95b51
+Cert Serial Number: 1b1fadb620f924d3366bf7c7f18ca059
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: OU=Trustis FPS Root CA, O=Trustis Limited, C=GB
+  NotBefore: 12/23/2003 8:14 AM
+  NotAfter: 1/21/2024 7:36 AM
+  Subject: OU=Trustis FPS Root CA, O=Trustis Limited, C=GB
+  Serial: 1b1fadb620f924d3366bf7c7f18ca059
+  04c0814bf5dfd9932215860ca6f6c3330b38c03b
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+  Application[4] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[5] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  04c0814bf5dfd9932215860ca6f6c3330b38c03b
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

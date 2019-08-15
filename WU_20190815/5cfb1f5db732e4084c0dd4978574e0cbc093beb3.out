@@ -1,0 +1,58 @@
+Issuer:
+    CN=TRUST2408 OCES Primary CA
+    O=TRUST2408
+    C=DK
+  Name Hash(sha1): b33874af9976a16da1f5164ab22e9878f3b86aad
+  Name Hash(md5): 4b36fbbf384b248a99df80338da739df
+Subject:
+    CN=TRUST2408 OCES Primary CA
+    O=TRUST2408
+    C=DK
+  Name Hash(sha1): b33874af9976a16da1f5164ab22e9878f3b86aad
+  Name Hash(md5): 4b36fbbf384b248a99df80338da739df
+Cert Serial Number: 4b8e6003
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=10
+  Issuer: CN=TRUST2408 OCES Primary CA, O=TRUST2408, C=DK
+  NotBefore: 3/3/2010 8:41 AM
+  NotAfter: 12/3/2037 9:11 AM
+  Subject: CN=TRUST2408 OCES Primary CA, O=TRUST2408, C=DK
+  Serial: 4b8e6003
+  b3be93c0cbe0748597d40d4c08e432b75d1ffb5c
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[3] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[4] = 1.3.6.1.5.5.7.3.7 IP security user
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  b3be93c0cbe0748597d40d4c08e432b75d1ffb5c
+  Issuer: CN=TRUST2408 OCES Primary CA, O=TRUST2408, C=DK
+  NotBefore: 3/3/2010 8:41 AM
+  NotAfter: 12/3/2037 9:11 AM
+  Subject: CN=TRUST2408 OCES Primary CA, O=TRUST2408, C=DK
+  Serial: 4b8e6003
+  b3be93c0cbe0748597d40d4c08e432b75d1ffb5c
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

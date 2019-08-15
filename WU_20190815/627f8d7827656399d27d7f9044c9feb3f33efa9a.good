@@ -1,0 +1,58 @@
+Issuer:
+    E=premium-server@thawte.com
+    CN=Thawte Premium Server CA
+    OU=Certification Services Division
+    O=Thawte Consulting cc
+    L=Cape Town
+    S=Western Cape
+    C=ZA
+  Name Hash(sha1): 3489687e76947c8bb71e5340759ccf7adb18eacb
+  Name Hash(md5): d4803ac36c256817d4ec5936f29bc4e7
+Subject:
+    E=premium-server@thawte.com
+    CN=Thawte Premium Server CA
+    OU=Certification Services Division
+    O=Thawte Consulting cc
+    L=Cape Town
+    S=Western Cape
+    C=ZA
+  Name Hash(sha1): 3489687e76947c8bb71e5340759ccf7adb18eacb
+  Name Hash(md5): d4803ac36c256817d4ec5936f29bc4e7
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: E=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, S=Western Cape, C=ZA
+  NotBefore: 7/31/1996 8:00 PM
+  NotAfter: 12/31/2020 7:59 PM
+  Subject: E=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, S=Western Cape, C=ZA
+  Serial: 01
+  9afa3ef3b3fec944907f7dd299636527788d7f62
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  9afa3ef3b3fec944907f7dd299636527788d7f62
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

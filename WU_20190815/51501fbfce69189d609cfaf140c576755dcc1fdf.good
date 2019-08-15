@@ -1,0 +1,52 @@
+Issuer:
+    CN=Hotspot 2.0 Trust Root CA - 03
+    O=WFA Hotspot 2.0
+    C=US
+  Name Hash(sha1): 723d0ce70c97f6e35ff101c53022a374a5c06f14
+  Name Hash(md5): 5bcb93eadb7d6d4fb7a00a2f3ae5030c
+Subject:
+    CN=Hotspot 2.0 Trust Root CA - 03
+    O=WFA Hotspot 2.0
+    C=US
+  Name Hash(sha1): 723d0ce70c97f6e35ff101c53022a374a5c06f14
+  Name Hash(md5): 5bcb93eadb7d6d4fb7a00a2f3ae5030c
+Cert Serial Number: 0cb30f70f286a433e0b90989de01edb7
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Hotspot 2.0 Trust Root CA - 03, O=WFA Hotspot 2.0, C=US
+  NotBefore: 12/8/2013 8:00 AM
+  NotAfter: 12/8/2043 8:00 AM
+  Subject: CN=Hotspot 2.0 Trust Root CA - 03, O=WFA Hotspot 2.0, C=US
+  Serial: 0cb30f70f286a433e0b90989de01edb7
+  df1fcc5d7576c540f1fa9c609d1869cebf1f5051
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  df1fcc5d7576c540f1fa9c609d1869cebf1f5051
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,68 @@
+Issuer:
+    CN=Entrust Root Certification Authority
+    OU=(c) 2006 Entrust, Inc.
+    OU=www.entrust.net/CPS is incorporated by reference
+    O=Entrust, Inc.
+    C=US
+  Name Hash(sha1): 2c4aa669590b963b11d4f6901d6beecb7fa576d0
+  Name Hash(md5): 5bf364bfa439f0b0b5487931c26c8a95
+Subject:
+    CN=Entrust Root Certification Authority
+    OU=(c) 2006 Entrust, Inc.
+    OU=www.entrust.net/CPS is incorporated by reference
+    O=Entrust, Inc.
+    C=US
+  Name Hash(sha1): 2c4aa669590b963b11d4f6901d6beecb7fa576d0
+  Name Hash(md5): 5bf364bfa439f0b0b5487931c26c8a95
+Cert Serial Number: 456b5054
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  NotBefore: 11/27/2006 4:23 PM
+  NotAfter: 11/27/2026 4:53 PM
+  Subject: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  Serial: 456b5054
+  f9524967d4f54dd437dcda02846ce340b7b11eb3
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[4] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[5] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[6] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+  Application[7] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[8] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  f9524967d4f54dd437dcda02846ce340b7b11eb3
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+    1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.4 Encrypting File System
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

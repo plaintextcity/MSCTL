@@ -1,0 +1,65 @@
+Issuer:
+    CN=Izenpe.com
+    O=IZENPE S.A.
+    C=ES
+  Name Hash(sha1): 4264562253e3c442d08ec17f32fb2d58f406ace3
+  Name Hash(md5): d895a1485825711bece16ab985d86da2
+Subject:
+    CN=Izenpe.com
+    O=IZENPE S.A.
+    C=ES
+  Name Hash(sha1): 4264562253e3c442d08ec17f32fb2d58f406ace3
+  Name Hash(md5): d895a1485825711bece16ab985d86da2
+Cert Serial Number: 06e846272f1f0a8fd1845ce369f6d5
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Izenpe.com, O=IZENPE S.A., C=ES
+  NotBefore: 12/13/2007 9:08 AM
+  NotAfter: 12/13/2037 4:27 AM
+  Subject: CN=Izenpe.com, O=IZENPE S.A., C=ES
+  Serial: 06e846272f1f0a8fd1845ce369f6d5
+  SubjectAltName: RFC822 Name=info@izenpe.com, Directory Address:STREET=Avda del Mediterraneo Etorbidea 14 - 01010 Vitoria-Gasteiz, O=IZENPE S.A. - CIF A01337260-RMerc.Vitoria-Gasteiz T1055 F62 S8
+  fdaef982b015f8bcf83f6a85942e0215939e7730
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[8] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  fdaef982b015f8bcf83f6a85942e0215939e7730
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.5.5.7.3.9 OCSP Signing
+    1.3.6.1.5.5.7.3.6 IP security tunnel termination
+    1.3.6.1.5.5.7.3.7 IP security user
+    1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

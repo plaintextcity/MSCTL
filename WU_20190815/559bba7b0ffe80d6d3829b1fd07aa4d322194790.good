@@ -1,0 +1,58 @@
+Issuer:
+    C=ES
+    O=EDICOM
+    CN=CAEDICOM Root
+  Name Hash(sha1): a887076627f71eab35595f069c49b9b9ece69cda
+  Name Hash(md5): 2c4f83a417f2c04dc4fbd83cee062927
+Subject:
+    C=ES
+    O=EDICOM
+    CN=CAEDICOM Root
+  Name Hash(sha1): a887076627f71eab35595f069c49b9b9ece69cda
+  Name Hash(md5): 2c4f83a417f2c04dc4fbd83cee062927
+Cert Serial Number: fb712658ad99e5
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=0
+  Issuer: C=ES, O=EDICOM, CN=CAEDICOM Root
+  NotBefore: 5/21/2014 7:06 AM
+  NotAfter: 5/21/2034 6:20 AM
+  Subject: C=ES, O=EDICOM, CN=CAEDICOM Root
+  Serial: fb712658ad99e5
+  90471922d3a47ad01f9b82d3d680fe0f7bba9b55
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[5] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  90471922d3a47ad01f9b82d3d680fe0f7bba9b55
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

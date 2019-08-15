@@ -1,0 +1,56 @@
+Issuer:
+    CN=CA ?????
+    O=WoSign CA Limited
+    C=CN
+  Name Hash(sha1): f5e51f6c2a552fbe68ef01c0531bbb17ed6c46ea
+  Name Hash(md5): cfb8f20385f933c7f8c3f7eee65851d7
+Subject:
+    CN=CA ?????
+    O=WoSign CA Limited
+    C=CN
+  Name Hash(sha1): f5e51f6c2a552fbe68ef01c0531bbb17ed6c46ea
+  Name Hash(md5): cfb8f20385f933c7f8c3f7eee65851d7
+Cert Serial Number: 50706bcdd813fc1b4e3b3372d211488d
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=CA ?????, O=WoSign CA Limited, C=CN
+  NotBefore: 8/7/2009 9:00 PM
+  NotAfter: 8/7/2039 9:00 PM
+  Subject: CN=CA ?????, O=WoSign CA Limited, C=CN
+  Serial: 50706bcdd813fc1b4e3b3372d211488d
+  d68a4012d3a7a4f5638500923a21f9898d473216
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  d68a4012d3a7a4f5638500923a21f9898d473216
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

@@ -1,0 +1,57 @@
+Issuer:
+    CN=Symantec Class 1 Public Primary Certification Authority - G6
+    OU=Symantec Trust Network
+    O=Symantec Corporation
+    C=US
+  Name Hash(sha1): a2114658ae015e8aa225dc6525c0ec95c113c1bb
+  Name Hash(md5): 182d78b6ac8ecc1a536f5a6832b7333b
+Subject:
+    CN=Symantec Class 1 Public Primary Certification Authority - G6
+    OU=Symantec Trust Network
+    O=Symantec Corporation
+    C=US
+  Name Hash(sha1): a2114658ae015e8aa225dc6525c0ec95c113c1bb
+  Name Hash(md5): 182d78b6ac8ecc1a536f5a6832b7333b
+Cert Serial Number: 243275f21d2fd20933f7b46acad0f398
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=Symantec Class 1 Public Primary Certification Authority - G6, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+  NotBefore: 10/17/2011 8:00 PM
+  NotAfter: 12/1/2037 7:59 PM
+  Subject: CN=Symantec Class 1 Public Primary Certification Authority - G6, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+  Serial: 243275f21d2fd20933f7b46acad0f398
+  646d53ccc38dd944e772fb82536b91291e617f51
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  646d53ccc38dd944e772fb82536b91291e617f51
+  Issuer: CN=Symantec Class 1 Public Primary Certification Authority - G6, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+  NotBefore: 10/17/2011 8:00 PM
+  NotAfter: 12/1/2037 7:59 PM
+  Subject: CN=Symantec Class 1 Public Primary Certification Authority - G6, OU=Symantec Trust Network, O=Symantec Corporation, C=US
+  Serial: 243275f21d2fd20933f7b46acad0f398
+  646d53ccc38dd944e772fb82536b91291e617f51
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

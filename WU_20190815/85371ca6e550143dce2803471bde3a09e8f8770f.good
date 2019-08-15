@@ -1,0 +1,57 @@
+Issuer:
+    OU=VeriSign Trust Network
+    OU=(c) 1998 VeriSign, Inc. - For authorized use only
+    OU=Class 3 Public Primary Certification Authority - G2
+    O=VeriSign, Inc.
+    C=US
+  Name Hash(sha1): c47a609a560b3c4ee87607d7c6544d2928a372ce
+  Name Hash(md5): 7173fa7247886438eb10b0f4e8a0cc18
+Subject:
+    OU=VeriSign Trust Network
+    OU=(c) 1998 VeriSign, Inc. - For authorized use only
+    OU=Class 3 Public Primary Certification Authority - G2
+    O=VeriSign, Inc.
+    C=US
+  Name Hash(sha1): c47a609a560b3c4ee87607d7c6544d2928a372ce
+  Name Hash(md5): 7173fa7247886438eb10b0f4e8a0cc18
+Cert Serial Number: 7dd9fe07cfa81eb7107967fba78934c6
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  NotBefore: 5/17/1998 8:00 PM
+  NotAfter: 8/1/2028 7:59 PM
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Serial: 7dd9fe07cfa81eb7107967fba78934c6
+  0f77f8e8093ade1b470328ce3d1450e5a61c3785
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.1 Server Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  0f77f8e8093ade1b470328ce3d1450e5a61c3785
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.3 Code Signing
+    1.3.6.1.5.5.7.3.1 Server Authentication
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

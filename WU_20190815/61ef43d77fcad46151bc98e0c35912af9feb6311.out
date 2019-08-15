@@ -1,0 +1,60 @@
+Issuer:
+    CN=VeriSign Class 2 Public Primary Certification Authority - G3
+    OU=(c) 1999 VeriSign, Inc. - For authorized use only
+    OU=VeriSign Trust Network
+    O=VeriSign, Inc.
+    C=US
+  Name Hash(sha1): b2167565678509dc8e8c06641c0d02e4720f7360
+  Name Hash(md5): c7758ad7bebb498aa3430d66ee0f6fb9
+Subject:
+    CN=VeriSign Class 2 Public Primary Certification Authority - G3
+    OU=(c) 1999 VeriSign, Inc. - For authorized use only
+    OU=VeriSign Trust Network
+    O=VeriSign, Inc.
+    C=US
+  Name Hash(sha1): b2167565678509dc8e8c06641c0d02e4720f7360
+  Name Hash(md5): c7758ad7bebb498aa3430d66ee0f6fb9
+Cert Serial Number: 6170cb498c5f984529e7b0a6d9505b7a
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  NotBefore: 9/30/1999 8:00 PM
+  NotAfter: 7/16/2036 7:59 PM
+  Subject: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Serial: 6170cb498c5f984529e7b0a6d9505b7a
+  1163eb9faf1259c3e098bc5161d4ca7fd743ef61
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  1163eb9faf1259c3e098bc5161d4ca7fd743ef61
+  Issuer: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  NotBefore: 9/30/1999 8:00 PM
+  NotAfter: 7/16/2036 7:59 PM
+  Subject: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Serial: 6170cb498c5f984529e7b0a6d9505b7a
+  1163eb9faf1259c3e098bc5161d4ca7fd743ef61
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

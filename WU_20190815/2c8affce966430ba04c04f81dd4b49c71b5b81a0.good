@@ -1,0 +1,50 @@
+Issuer:
+    CN=Cisco RXC-R2
+    O=Cisco Systems
+    C=US
+  Name Hash(sha1): d329215f86fd7fbde9aa22c60a7638ca341bb2ea
+  Name Hash(md5): bdf28807d55bbc21b23a8843b0658652
+Subject:
+    CN=Cisco RXC-R2
+    O=Cisco Systems
+    C=US
+  Name Hash(sha1): d329215f86fd7fbde9aa22c60a7638ca341bb2ea
+  Name Hash(md5): bdf28807d55bbc21b23a8843b0658652
+Cert Serial Number: 01
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Cisco RXC-R2, O=Cisco Systems, C=US
+  NotBefore: 7/9/2014 5:46 PM
+  NotAfter: 7/9/2034 5:46 PM
+  Subject: CN=Cisco RXC-R2, O=Cisco Systems, C=US
+  Serial: 01
+  a0815b1bc7494bdd814fc004ba306496ceff8a2c
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  a0815b1bc7494bdd814fc004ba306496ceff8a2c
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

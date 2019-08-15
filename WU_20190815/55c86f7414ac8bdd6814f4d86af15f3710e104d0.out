@@ -1,0 +1,58 @@
+Issuer:
+    OU=Netrust CA1
+    O=Netrust Certificate Authority 1
+    C=SG
+  Name Hash(sha1): ac3a522624712c3b41081dc81a82cf5fea2aa45f
+  Name Hash(md5): 287773d1943dd593db40a07e6dab9f0c
+Subject:
+    OU=Netrust CA1
+    O=Netrust Certificate Authority 1
+    C=SG
+  Name Hash(sha1): ac3a522624712c3b41081dc81a82cf5fea2aa45f
+  Name Hash(md5): 287773d1943dd593db40a07e6dab9f0c
+Cert Serial Number: 3ac3f61f
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10a dwErrorStatus=10
+  Issuer: OU=Netrust CA1, O=Netrust Certificate Authority 1, C=SG
+  NotBefore: 3/29/2001 10:27 PM
+  NotAfter: 3/29/2021 10:57 PM
+  Subject: OU=Netrust CA1, O=Netrust Certificate Authority 1, C=SG
+  Serial: 3ac3f61f
+  d004e110375ff16ad8f41468dd8bac14746fc855
+  Element.dwInfoStatus = CERT_TRUST_HAS_KEY_MATCH_ISSUER (0x2)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[1] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+  Application[2] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[3] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[4] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  d004e110375ff16ad8f41468dd8bac14746fc855
+  Issuer: OU=Netrust CA1, O=Netrust Certificate Authority 1, C=SG
+  NotBefore: 3/29/2001 10:27 PM
+  NotAfter: 3/29/2021 10:57 PM
+  Subject: OU=Netrust CA1, O=Netrust Certificate Authority 1, C=SG
+  Serial: 3ac3f61f
+  d004e110375ff16ad8f41468dd8bac14746fc855
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

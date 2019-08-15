@@ -1,0 +1,64 @@
+Issuer:
+    CN=Entrust Root Certification Authority - G4
+    OU=(c) 2015 Entrust, Inc. - for authorized use only
+    OU=See www.entrust.net/legal-terms
+    O=Entrust, Inc.
+    C=US
+  Name Hash(sha1): 1c7ac40c2fa87b71c8c24d49b6326b18d8a675ec
+  Name Hash(md5): 2c15cdf0b8c6cbc700124ff017817a59
+Subject:
+    CN=Entrust Root Certification Authority - G4
+    OU=(c) 2015 Entrust, Inc. - for authorized use only
+    OU=See www.entrust.net/legal-terms
+    O=Entrust, Inc.
+    C=US
+  Name Hash(sha1): 1c7ac40c2fa87b71c8c24d49b6326b18d8a675ec
+  Name Hash(md5): 2c15cdf0b8c6cbc700124ff017817a59
+Cert Serial Number: d9b5437fafa9390f000000005565ad58
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  NotBefore: 5/27/2015 7:11 AM
+  NotAfter: 12/27/2037 7:41 AM
+  Subject: CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Serial: d9b5437fafa9390f000000005565ad58
+  0196ba2935ec77405c6259af26b03726864e8814
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[1] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[2] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[3] = 1.3.6.1.5.5.7.3.9 OCSP Signing
+  Application[4] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[5] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[6] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  0196ba2935ec77405c6259af26b03726864e8814
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.8 Time Stamping
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.9 OCSP Signing
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.5.5.7.3.3 Code Signing
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

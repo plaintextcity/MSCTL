@@ -1,0 +1,60 @@
+Issuer:
+    CN=Macao Post eSignTrust Root Certification Authority (G02)
+    O=Macao Post
+    C=MO
+  Name Hash(sha1): 7f8ac6662f69375684e39eee5ec11cbe959514f5
+  Name Hash(md5): f75c78f98fec3a279198584a1458ec5c
+Subject:
+    CN=Macao Post eSignTrust Root Certification Authority (G02)
+    O=Macao Post
+    C=MO
+  Name Hash(sha1): 7f8ac6662f69375684e39eee5ec11cbe959514f5
+  Name Hash(md5): f75c78f98fec3a279198584a1458ec5c
+Cert Serial Number: 52acbe07114997bb1fbf871b2517bfa4
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=Macao Post eSignTrust Root Certification Authority (G02), O=Macao Post, C=MO
+  NotBefore: 1/5/2010 8:00 PM
+  NotAfter: 1/5/2020 7:59 PM
+  Subject: CN=Macao Post eSignTrust Root Certification Authority (G02), O=Macao Post, C=MO
+  Serial: 52acbe07114997bb1fbf871b2517bfa4
+  90cf28e3aa0d53568e5dddbadd452be051311406
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[3] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[4] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[5] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[6] = 1.3.6.1.5.5.7.3.3 Code Signing
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  90cf28e3aa0d53568e5dddbadd452be051311406
+  Issuer: CN=Macao Post eSignTrust Root Certification Authority (G02), O=Macao Post, C=MO
+  NotBefore: 1/5/2010 8:00 PM
+  NotAfter: 1/5/2020 7:59 PM
+  Subject: CN=Macao Post eSignTrust Root Certification Authority (G02), O=Macao Post, C=MO
+  Serial: 52acbe07114997bb1fbf871b2517bfa4
+  90cf28e3aa0d53568e5dddbadd452be051311406
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.

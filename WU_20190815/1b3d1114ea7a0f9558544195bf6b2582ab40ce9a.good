@@ -1,0 +1,58 @@
+Issuer:
+    CN=S-TRUST Universal Root CA
+    OU=S-TRUST Certification Services
+    O=Deutscher Sparkassen Verlag GmbH
+    C=DE
+  Name Hash(sha1): cc4594b37431b84302b95828156b3079f96f2d47
+  Name Hash(md5): 9f771c63de84c0c2f0b39c0fa18b72c5
+Subject:
+    CN=S-TRUST Universal Root CA
+    OU=S-TRUST Certification Services
+    O=Deutscher Sparkassen Verlag GmbH
+    C=DE
+  Name Hash(sha1): cc4594b37431b84302b95828156b3079f96f2d47
+  Name Hash(md5): 9f771c63de84c0c2f0b39c0fa18b72c5
+Cert Serial Number: 6056c54b23405b64d4ed25dad9d61e1e
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=0
+  Issuer: CN=S-TRUST Universal Root CA, OU=S-TRUST Certification Services, O=Deutscher Sparkassen Verlag GmbH, C=DE
+  NotBefore: 10/21/2013 8:00 PM
+  NotAfter: 10/21/2038 7:59 PM
+  Subject: CN=S-TRUST Universal Root CA, OU=S-TRUST Certification Services, O=Deutscher Sparkassen Verlag GmbH, C=DE
+  Serial: 6056c54b23405b64d4ed25dad9d61e1e
+  9ace40ab82256bbf95415458950f7aea14113d1b
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[2] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[3] = 1.3.6.1.4.1.311.10.3.12 Document Signing
+  Application[4] = 1.3.6.1.5.5.7.3.8 Time Stamping
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  9ace40ab82256bbf95415458950f7aea14113d1b
+------------------------------------
+Verified Issuance Policies: All
+Verified Application Policies:
+    1.3.6.1.5.5.7.3.1 Server Authentication
+    1.3.6.1.5.5.7.3.2 Client Authentication
+    1.3.6.1.5.5.7.3.4 Secure Email
+    1.3.6.1.4.1.311.10.3.12 Document Signing
+    1.3.6.1.5.5.7.3.8 Time Stamping
+Cert is a CA certificate
+Cannot check leaf certificate revocation status
+CertUtil: -verify command completed successfully.

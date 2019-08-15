@@ -1,0 +1,62 @@
+Issuer:
+    CN=AC Raíz Certicámara S.A.
+    O=Sociedad Cameral de Certificación Digital - Certicámara S.A.
+    C=CO
+  Name Hash(sha1): 0f3177060abf5749dab8ecaf423fccd2376f17a2
+  Name Hash(md5): 933576c8141d581f44b725defd86de95
+Subject:
+    CN=AC Raíz Certicámara S.A.
+    O=Sociedad Cameral de Certificación Digital - Certicámara S.A.
+    C=CO
+  Name Hash(sha1): 0f3177060abf5749dab8ecaf423fccd2376f17a2
+  Name Hash(md5): 933576c8141d581f44b725defd86de95
+Cert Serial Number: 077e52937be015e357f0698ccbec0c
+
+dwFlags = CA_VERIFY_FLAGS_CONSOLE_TRACE (0x20000000)
+dwFlags = CA_VERIFY_FLAGS_DUMP_CHAIN (0x40000000)
+Application[0] = 1.3.6.1.5.5.7.3.1 Server Authentication
+ChainFlags = CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT (0x40000000)
+HCCE_LOCAL_MACHINE
+CERT_CHAIN_POLICY_BASE
+-------- CERT_CHAIN_CONTEXT --------
+ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+ChainContext.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+SimpleChain.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+SimpleChain.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+
+CertContext[0][0]: dwInfoStatus=10c dwErrorStatus=10
+  Issuer: CN=AC Raíz Certicámara S.A., O=Sociedad Cameral de Certificación Digital - Certicámara S.A., C=CO
+  NotBefore: 11/27/2006 4:46 PM
+  NotAfter: 4/2/2030 5:42 PM
+  Subject: CN=AC Raíz Certicámara S.A., O=Sociedad Cameral de Certificación Digital - Certicámara S.A., C=CO
+  Serial: 077e52937be015e357f0698ccbec0c
+  36d31006e9a234f9d31245b9b85ee3b0f8c5a1cb
+  Element.dwInfoStatus = CERT_TRUST_HAS_NAME_MATCH_ISSUER (0x4)
+  Element.dwInfoStatus = CERT_TRUST_IS_SELF_SIGNED (0x8)
+  Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  Element.dwErrorStatus = CERT_TRUST_IS_NOT_VALID_FOR_USAGE (0x10)
+  Application[0] = 1.3.6.1.5.5.7.3.2 Client Authentication
+  Application[1] = 1.3.6.1.5.5.7.3.4 Secure Email
+  Application[2] = 1.3.6.1.5.5.7.3.3 Code Signing
+  Application[3] = 1.3.6.1.5.5.7.3.8 Time Stamping
+  Application[4] = 1.3.6.1.4.1.311.10.3.4 Encrypting File System
+  Application[5] = 1.3.6.1.5.5.8.2.2 IP security IKE intermediate
+  Application[6] = 1.3.6.1.5.5.7.3.6 IP security tunnel termination
+  Application[7] = 1.3.6.1.5.5.7.3.7 IP security user
+  Application[8] = 1.3.6.1.5.5.7.3.5 IP security end system
+
+Exclude leaf cert:
+  0907d8af90186095efbf55320d4b6b5eeea339da
+Full chain:
+  36d31006e9a234f9d31245b9b85ee3b0f8c5a1cb
+  Issuer: CN=AC Raíz Certicámara S.A., O=Sociedad Cameral de Certificación Digital - Certicámara S.A., C=CO
+  NotBefore: 11/27/2006 4:46 PM
+  NotAfter: 4/2/2030 5:42 PM
+  Subject: CN=AC Raíz Certicámara S.A., O=Sociedad Cameral de Certificación Digital - Certicámara S.A., C=CO
+  Serial: 077e52937be015e357f0698ccbec0c
+  36d31006e9a234f9d31245b9b85ee3b0f8c5a1cb
+The certificate is not valid for the requested usage. 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+------------------------------------
+CertUtil: -verify command FAILED: 0x800b0110 (-2146762480 CERT_E_WRONG_USAGE)
+CertUtil: The certificate is not valid for the requested usage.
